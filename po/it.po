@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-25 23:44+0200\n"
+"PO-Revision-Date: 2022-05-27 00:47+0200\n"
 "Last-Translator: Matteo Mardegan <11093569+mmardegan@users.noreply.github.com>"
 "\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
@@ -270,7 +270,7 @@ msgid ""
 "when having raw+JPEG images together in one directory it makes no sense to "
 "import both. with this flag one can ignore all JPEGs found."
 msgstr ""
-"Quando si hanno raw+JPEG nella stessa cartella non ha senso importarli "
+"Quando si hanno RAW+JPEG nella stessa cartella non ha senso importarli "
 "entrambi. con questo flag si possono ignorare tutti i JPEG trovati."
 
 #: ../build/bin/conf_gen.h:946
@@ -992,7 +992,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:4119
 msgid "use single-click in the collections module"
-msgstr "Usa il singolo click nel modulo raccolte"
+msgstr "Nel modulo raccolte usa il singolo click"
 
 #: ../build/bin/preferences_gen.h:4133
 msgid ""
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:4263 ../build/bin/preferences_gen.h:5031
 msgid "show scrollbars for central view"
-msgstr "Mostra le barre di scorrimento per la vista centrale"
+msgstr "Per la vista centrale mostra le barre di scorrimento"
 
 #: ../build/bin/preferences_gen.h:4274 ../build/bin/preferences_gen.h:5213
 #: ../build/bin/preferences_gen.h:5353 ../build/bin/preferences_gen.h:5389
@@ -1063,7 +1063,7 @@ msgstr "VERO"
 
 #: ../build/bin/preferences_gen.h:4277 ../build/bin/preferences_gen.h:5045
 msgid "defines whether scrollbars should be displayed"
-msgstr "Stabilisci dove devono essere mostrate le barre di scorrimento"
+msgstr "Definisce dove devono essere mostrate le barre di scorrimento"
 
 #: ../build/bin/preferences_gen.h:4299
 msgid "show image time with milliseconds"
@@ -1080,7 +1080,7 @@ msgstr "anteprime"
 
 #: ../build/bin/preferences_gen.h:4343
 msgid "use raw file instead of embedded JPEG from size"
-msgstr "Usa il file raw anziché il JPEG incorporato dalla dimensione"
+msgstr "Usa il file RAW anziché il JPEG incorporato dalla dimensione"
 
 #: ../build/bin/preferences_gen.h:4416
 msgid ""
@@ -1091,12 +1091,11 @@ msgid ""
 "(more comments in the manual)"
 msgstr ""
 "Se la dimensione dell'anteprima è maggiore di questo valore, verrà processato "
-"usando il file raw file al posto dell'anteprima memorizzata nel JPEG"
+"usando il file RAW file al posto dell'anteprima memorizzata nel JPEG"
 " (migliore "
 "ma più lento).\n"
-"Se vuoi tutte tutte le anteprime e le immagini pre-elaborate nella miglior"
-" qualità "
-"dovresti scegliere l'opzione *sempre*.\n"
+"Se vuoi tutte tutte le anteprime e le immagini pre-elaborate nella miglior "
+"qualità dovresti scegliere l'opzione *sempre*.\n"
 "(altri commenti nel manuale)"
 
 #: ../build/bin/preferences_gen.h:4438
@@ -1200,7 +1199,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:4869
 msgid "pattern for the image information line"
-msgstr "Schema del testo informativo dell'immagine"
+msgstr "Modello del testo informativo dell'immagine"
 
 #: ../build/bin/preferences_gen.h:4890
 msgid "see manual for a list of the tags you can use."
@@ -1228,7 +1227,7 @@ msgid ""
 "process the image in darkroom mode with a small border. set to 0 if you "
 "don't want any border."
 msgstr ""
-"Elabora l'immagine in modalità Camera Oscura con un bordo piccolo. Imposta a "
+"Elabora l'immagine in modalità Camera Oscura con un bordo sottile. Imposta a "
 "0 se non vuoi alcun bordo."
 
 #: ../build/bin/preferences_gen.h:5067
@@ -1499,9 +1498,8 @@ msgid ""
 "this folder (and sub-folders) contains Lut files used by lut3d modules. "
 "(need a restart)."
 msgstr ""
-"Questa cartella (e le sotto-cartelle) contiene i files Lut usate dal modulo"
-" lut3d. "
-"(Richiede il riavvio)."
+"Questa cartella (e le sotto-cartelle) contiene i file Lut usati dal modulo"
+" lut3d. (Richiede il riavvio)."
 
 #: ../build/bin/preferences_gen.h:6057
 msgid "auto-apply pixel workflow defaults"
@@ -1535,7 +1533,7 @@ msgstr ""
 "del bilanciamento del bianco\n"
 "Moderno usa una combinazione dei moduli bilanciamento del bianco e"
 " calibrazione "
-"colore, con una scienza del colore migliorata per la correzione cromatica."
+"colore, con una scienza del colore migliorata per la correzione cromatica"
 
 #: ../build/bin/preferences_gen.h:6182
 #, fuzzy
@@ -1778,7 +1776,7 @@ msgid ""
 "send files to trash instead of permanently deleting files on system that "
 "supports it"
 msgstr ""
-"Se il sistema lo supporta, sposta i files nel cestino invece di eliminarli "
+"Se il sistema lo supporta, sposta i file nel cestino invece di eliminarli "
 "permanentemente"
 
 #: ../build/bin/preferences_gen.h:6874
@@ -1959,9 +1957,8 @@ msgid ""
 " - on import: immediately after importing the image\n"
 " - after edit: after any user change on the image"
 msgstr ""
-"I sidecar files mantengono l'informazione su tutti i tuoi passi di sviluppo"
-" per permettere "
-"la perfetta re-importazione dei files delle immagini.\n"
+"I file sidecar mantengono l'informazione su tutti i tuoi passi di sviluppo "
+"per permettere la perfetta re-importazione dei file delle immagini.\n"
 "\n"
 "In base alla modalità selezionata i file sidecar saranno scritti:\n"
 " - mai\n"
@@ -4757,18 +4754,17 @@ msgstr "Organizza e sviluppa le immagini della tua fotocamera digitale"
 #: ../build/share/darktable/darktable.desktop.in.h:4
 #: ../data/darktable.desktop.in.h:4
 msgid "graphics;photography;raw;"
-msgstr "grafica;fotografia;raw;"
+msgstr "grafica;fotografia;RAW;"
 
 #: ../data/darktable.appdata.xml.in.h:2
-#, fuzzy
 msgid ""
 "darktable manages your digital negatives in a database and lets you view "
 "them through a lighttable. It also enables you to develop raw images and "
 "enhance them in a darkroom."
 msgstr ""
-"darktable gestisce i tuoi negativi digitali in un database e ti permette di "
+"Darktable gestisce i tuoi negativi digitali in un database e ti permette di "
 "vederli attraverso un Tavolo Luminoso. Ti permette inoltre di sviluppare le "
-"immagini raw e di migliorarle nella Camera Oscura."
+"immagini RAW e di migliorarle in una Camera Oscura."
 
 #: ../data/darktable.appdata.xml.in.h:3
 msgid ""
@@ -4779,13 +4775,12 @@ msgstr ""
 "il geotagging, il Tethering (scatto remoto), la Stampa e la Presentazione."
 
 #: ../data/darktable.appdata.xml.in.h:4
-#, fuzzy
 msgid ""
 "darktable supports most modern cameras' raw formats, and does all of its "
 "processing at very high precision."
 msgstr ""
-"darktable supporta i formati raw delle più moderne fotocamere, e ne esegue "
-"le elaborazioni con un'altissima precisione"
+"Darktable supporta i formati RAW delle più moderne fotocamere, e ne esegue "
+"le elaborazioni con un'altissima precisione."
 
 #: ../data/darktable.appdata.xml.in.h:5
 msgid "Virtual light table, showing a collection"
@@ -5905,11 +5900,11 @@ msgstr ""
 "      significa probabilmente che l'ultima istanza si è chiusa in modo"
 " anomalo. \n"
 "      Clicca sul pulsante \"Cancella i file di blocco del database\" per"
-" rimuovere i files "
+" rimuovere i file "
 "<i>data.db.lock</i> e <i>library.db.lock</i>.  \n"
 "\n"
 "\n"
-"      <i><u>Attenzione!</u> Non cancellare questi files senza prima esserti"
+"      <i><u>Attenzione!</u> Non cancellare questi file senza prima esserti"
 " assicurato "
 "dei controlli sopra, \n"
 "      altrimenti rischi di generare inconsistenze serie sul tuo database."
@@ -6978,7 +6973,7 @@ msgstr ""
 
 #: ../src/control/jobs/control_jobs.c:377
 msgid "exposure bracketing only works on raw images."
-msgstr "Il bracketing dell'esposizione funziona solamente sulle immagini raw."
+msgstr "Il bracketing dell'esposizione funziona solamente sulle immagini RAW."
 
 #: ../src/control/jobs/control_jobs.c:384
 msgid "images have to be of same size and orientation!"
@@ -7049,7 +7044,7 @@ msgstr "Elimina fisicamente"
 
 #: ../src/control/jobs/control_jobs.c:860
 msgid "physically delete all files"
-msgstr "Elimina fisicamente tutti i files"
+msgstr "Elimina fisicamente tutti i file"
 
 #: ../src/control/jobs/control_jobs.c:862
 msgid "only remove from the image library"
@@ -8475,8 +8470,8 @@ msgstr "'%s' non è un file XMP di Lightroom!"
 #, c-format
 msgid "%s has been imported"
 msgid_plural "%s have been imported"
-msgstr[0] "%s è stato importato con successo"
-msgstr[1] "%s sono stati importati con successo"
+msgstr[0] "%s è stato importato"
+msgstr[1] "%s sono stati importati"
 
 #: ../src/develop/masks/brush.c:1117 ../src/develop/masks/brush.c:1174
 #, c-format
@@ -9702,8 +9697,7 @@ msgstr ""
 "Mentre il tasto è premuto, una combinazione di tasti del mouse possono (due/ "
 "tre volte /a lungo) esser premuti\n"
 "Tenendo premuto il tasto (e modificatori e/o pulsanti) uno scorrimento del"
-" mouse "
-"o un movimento può esser aggiunto\n"
+" mouse o un movimento può esser aggiunto\n"
 "I dispositivi connessi possono inviare tasti o movimenti usando i loro"
 " controller fisici\n"
 "\n"
@@ -10712,11 +10706,11 @@ msgstr "Tutti i file"
 
 #: ../src/gui/presets.c:59
 msgid "non-raw"
-msgstr "Non raw"
+msgstr "Non RAW"
 
 #: ../src/gui/presets.c:59 ../src/libs/metadata_view.c:333
 msgid "raw"
-msgstr "Raw"
+msgstr "RAW"
 
 #: ../src/gui/presets.c:59
 msgid "HDR"
@@ -12737,7 +12731,7 @@ msgstr "Scegli colore per la cornice dall'immagine"
 #. make sure you put all your translatable strings into _() !
 #: ../src/iop/cacorrect.c:82
 msgid "raw chromatic aberrations"
-msgstr "aberrazioni cromatiche del raw"
+msgstr "aberrazioni cromatiche del RAW"
 
 #: ../src/iop/cacorrect.c:87
 msgid "correct chromatic aberrations for Bayer sensors"
@@ -12752,14 +12746,14 @@ msgstr "Correzione aberrazioni cromatiche per sensori Bayer"
 #: ../src/iop/rawprepare.c:156 ../src/iop/temperature.c:200
 #: ../src/iop/temperature.c:202
 msgid "linear, raw, scene-referred"
-msgstr "Lineare, raw, riferito alla scena"
+msgstr "Lineare, RAW, riferito alla scena"
 
 #: ../src/iop/cacorrect.c:90 ../src/iop/cacorrectrgb.c:169
 #: ../src/iop/demosaic.c:229 ../src/iop/invert.c:124
 #: ../src/iop/rawdenoise.c:132 ../src/iop/rawprepare.c:155
 #: ../src/iop/temperature.c:201
 msgid "linear, raw"
-msgstr "Lineare, raw"
+msgstr "Lineare, RAW"
 
 #: ../src/iop/cacorrect.c:1337
 #, fuzzy
@@ -12800,9 +12794,8 @@ msgid ""
 "the image shown in darkroom would look vastly different from developed files "
 "so effect is bypassed now."
 msgstr ""
-"Per calcolare dei buoni parametri per la correzione CA del raw vogliamo tutti"
-" i "
-"dati sensore o almeno una buona parte di essi.\n"
+"Per calcolare dei buoni parametri per la correzione CA del RAW vogliamo tutti "
+"i dati sensore o almeno una buona parte di essi.\n"
 "L'immagine mostrata in Camera Oscura dovrebbe sembrare enormemente differente "
 "dai file elaborati perciò ora l'effetto è bypassato."
 
@@ -12815,13 +12808,12 @@ msgid "activate colorshift correction for blue & red channels"
 msgstr "Attiva la correzione dello spostamento colore per i canali blu e rosso"
 
 #: ../src/iop/cacorrect.c:1465
-#, fuzzy
 msgid ""
 "automatic chromatic aberration correction\n"
 "only for Bayer raw files"
 msgstr ""
 "Correzione automatica aberrazioni cromatiche\n"
-"Solo per file raw bayer"
+"Solo per file RAW Bayer"
 
 #: ../src/iop/cacorrectrgb.c:161 ../src/iop/defringe.c:75
 msgid "chromatic aberrations"
@@ -13300,7 +13292,7 @@ msgstr ""
 #: ../src/iop/channelmixerrgb.c:3628
 msgid "white balance successfully extracted from raw image"
 msgstr ""
-"Il bilanciamento del bianco è stato estratto con successo dall'immagine raw"
+"Il bilanciamento del bianco è stato estratto con successo dall'immagine RAW"
 
 #. We need to recompute only the full preview
 #: ../src/iop/channelmixerrgb.c:3634
@@ -15159,7 +15151,7 @@ msgstr "Metodo di corrispondenza per il canale del verde"
 
 #: ../src/iop/demosaic.c:5821
 msgid "demosaicing is only used for color raw images"
-msgstr "La demosaicizzazione è usata per il colore delle immagini raw"
+msgstr "La demosaicizzazione è usata per il colore delle immagini RAW"
 
 #: ../src/iop/denoiseprofile.c:707
 msgid "wavelets: chroma only"
@@ -15762,7 +15754,7 @@ msgstr "Default Magic Lantern"
 #: ../src/iop/rawoverexposed.c:254
 #, c-format
 msgid "failed to get raw buffer from image `%s'"
-msgstr "Impossibile leggere il buffer raw dall'immagine '%s'"
+msgstr "Impossibile leggere il buffer RAW dall'immagine '%s'"
 
 #: ../src/iop/exposure.c:564
 #, no-c-format
@@ -16785,7 +16777,7 @@ msgstr "Cancella il magenta dalle alte luci e tenta di recuperare i colori"
 
 #: ../src/iop/highlights.c:149 ../src/iop/hotpixels.c:75
 msgid "reconstruction, raw"
-msgstr "Ricostruzione, raw"
+msgstr "Ricostruzione, RAW"
 
 #: ../src/iop/highlights.c:2101
 msgid ""
@@ -16885,7 +16877,7 @@ msgid ""
 "only works for raw images."
 msgstr ""
 "Correzione automatica pixel bruciati\n"
-"Funziona solo sulle immagini raw."
+"Funziona solo sulle immagini RAW."
 
 #: ../src/iop/invert.c:95 ../src/iop/invert.c:527
 #, c-format
@@ -16906,7 +16898,7 @@ msgstr "Inverti negativi pellicola"
 
 #: ../src/iop/invert.c:123 ../src/iop/invert.c:125
 msgid "linear, raw, display-referred"
-msgstr "Lineare, raw, riferito allo schermo"
+msgstr "Lineare, RAW, riferito allo schermo"
 
 #. Here we could provide more for monochrome special cases. As no monochrome camera
 #. has a bayer sensor we don't need g->RGB_to_CAM and g->CAM_to_RGB corrections
@@ -17977,19 +17969,19 @@ msgstr "Metodo mappatura dei toni"
 
 #: ../src/iop/rawdenoise.c:124
 msgid "raw denoise"
-msgstr "riduzione rumore raw"
+msgstr "riduzione rumore RAW"
 
 #: ../src/iop/rawdenoise.c:129
 msgid "denoise the raw picture early in the pipeline"
-msgstr "Rimuove il rumore dal raw all'inizio della coda di sviluppo"
+msgstr "Rimuove il rumore dal RAW all'inizio della coda di sviluppo"
 
 #: ../src/iop/rawdenoise.c:955
 msgid ""
 "raw denoising\n"
 "only works for raw images."
 msgstr ""
-"La riduzione del rumore raw\n"
-"funziona solo con le immagini raw."
+"riduzione del rumore RAW\n"
+"funziona solo con le immagini RAW."
 
 #. * let's fill the encapsulating widgets
 #. mode of operation
@@ -17997,12 +17989,12 @@ msgstr ""
 #: ../src/views/darkroom.c:2307 ../src/views/darkroom.c:2316
 #: ../src/views/darkroom.c:2331
 msgid "raw overexposed"
-msgstr "Raw sovraesposto"
+msgstr "RAW sovraesposto"
 
 #: ../src/iop/rawprepare.c:99
 msgctxt "modulename"
 msgid "raw black/white point"
-msgstr "punto nero/bianco raw"
+msgstr "punto nero/bianco RAW"
 
 #: ../src/iop/rawprepare.c:151
 msgid ""
@@ -18055,7 +18047,7 @@ msgid ""
 "raw black/white point correction\n"
 "only works for the sensors that need it."
 msgstr ""
-"La correzione del punto di bianco/nero raw\n"
+"La correzione del punto di bianco/nero RAW\n"
 "funziona solo con i sensori che ne hanno bisogno."
 
 #: ../src/iop/rcd_demosaic.c:310
@@ -18427,7 +18419,7 @@ msgid ""
 "\n"
 "you should not touch values here !"
 msgstr ""
-"Modulo interno che regola specifiche tecniche per i sensori raw.\n"
+"Modulo interno che regola specifiche tecniche per i sensori RAW.\n"
 "\n"
 "Non dovreste alterare nessun valore!"
 
@@ -20053,7 +20045,7 @@ msgstr "Seleziona un metodo per impostare la dimensione di output"
 
 #: ../src/libs/export.c:1125
 msgid "in pixels (for file)"
-msgstr "in pixel (per files)"
+msgstr "in pixel (per file)"
 
 #: ../src/libs/export.c:1126
 msgid "in cm (for print)"
@@ -20065,7 +20057,7 @@ msgstr "in pollici (per stampe)"
 
 #: ../src/libs/export.c:1128
 msgid "by scale (for file)"
-msgstr "in scala (per files)"
+msgstr "in scala (per file)"
 
 #: ../src/libs/export.c:1131 ../src/libs/export.c:1146
 msgid ""
@@ -22238,7 +22230,7 @@ msgstr "Rimuovi widget"
 
 #: ../src/libs/modulegroups.c:2700
 msgid "show all history modules"
-msgstr "Mostrare tutta la storia dei i moduli"
+msgstr "Mostra tutta la storia dei i moduli"
 
 #: ../src/libs/modulegroups.c:2703 ../src/libs/modulegroups.c:3889
 msgid ""
@@ -23761,7 +23753,7 @@ msgid ""
 "toggle raw over exposed indication\n"
 "right click for options"
 msgstr ""
-"Attiva l'indicatore di sovraesposizione raw\n"
+"Attiva l'indicatore di sovraesposizione RAW\n"
 "click destro per ulteriori opzioni"
 
 #: ../src/views/darkroom.c:2308

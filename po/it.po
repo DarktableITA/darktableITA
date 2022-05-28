@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-28 23:25+0200\n"
+"PO-Revision-Date: 2022-05-29 00:01+0200\n"
 "Last-Translator: Luca Cignoni <cigno5@users.noreply.github.com>\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
 "Language: it\n"
@@ -905,7 +905,7 @@ msgstr "Tavolo Luminoso"
 #: ../build/bin/preferences_gen.h:4063 ../build/bin/preferences_gen.h:4668
 #: ../build/bin/preferences_gen.h:6710 ../src/gui/preferences.c:271
 msgid "general"
-msgstr "generale"
+msgstr "Generale"
 
 #: ../build/bin/preferences_gen.h:4083
 msgid "hide built-in presets for utility modules"
@@ -1865,13 +1865,12 @@ msgstr ""
 "fotocamere registrano per prendere note relative alle immagini"
 
 #: ../build/bin/preferences_gen.h:7250
-#, fuzzy
 msgid "storage"
 msgstr "Supporto"
 
 #: ../build/bin/preferences_gen.h:7253 ../src/control/crawler.c:609
 msgid "database"
-msgstr "database"
+msgstr "Database"
 
 #: ../build/bin/preferences_gen.h:7273
 msgid "check for database maintenance"
@@ -1944,7 +1943,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:7511 ../src/control/crawler.c:608
 msgid "xmp"
-msgstr "xmp"
+msgstr "XMP"
 
 #: ../build/bin/preferences_gen.h:7531
 msgid "write sidecar file for each image"
@@ -2140,13 +2139,16 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:8130
 msgid "prefer focused instance"
-msgstr ""
+msgstr "Prediligi instanza a fuoco"
 
 #: ../build/bin/preferences_gen.h:8144
 msgid ""
 "if an instance of the module has focus, apply shortcut to that instance\n"
 "note: blending shortcuts always apply to the focused instance"
 msgstr ""
+"Se l'istanza di un modulo ha il fuoco, applica la scorciatoia a questa "
+"istanza\n"
+"Nota: le scorciatoie combinate si applicano sempre all'istanza a fuoco"
 
 #: ../build/bin/preferences_gen.h:8166
 msgid "prefer expanded instances"
@@ -2232,9 +2234,8 @@ msgstr "Intervallo di tempo tra le foto durante la presentazione"
 
 #: ../build/bin/preferences_gen.h:8472 ../src/control/jobs/control_jobs.c:2325
 #: ../src/libs/import.c:172
-#, fuzzy
 msgid "import"
-msgstr "importa"
+msgstr "Importa"
 
 #: ../build/bin/preferences_gen.h:8475
 msgid "session options"
@@ -2305,11 +2306,11 @@ msgstr "Il numero di raccolte recenti da archiviare e mostrare in questa lista"
 
 #: ../build/bin/preferences_gen.h:8808
 msgid "hide the history button and show a specific module instead"
-msgstr ""
+msgstr "Nascondi il pusante storia e mostra invece un modulo specifico"
 
 #: ../build/bin/preferences_gen.h:8822
 msgid "hide the history button and show the recent collections module instead"
-msgstr ""
+msgstr "Nascondi il pulsante storia e mostra invece il modulo raccolte recenti"
 
 #: ../build/bin/preferences_gen.h:8844
 msgid "number of folder levels to show in lists"
@@ -2340,10 +2341,13 @@ msgid ""
 "sort the following collections in descending order: 'film roll' by folder, "
 "'folder', 'times' (e.g. 'capture date')"
 msgstr ""
+"Ordina le seguenti raccole in ordine discendente: 'rullino' per cartella, "
+"'cartella', 'ore' (es: 'ora di scatto')"
 
 #: ../build/bin/preferences_gen.h:9048
+#, fuzzy
 msgid "prefer an history button in the collect module"
-msgstr ""
+msgstr "Prediligi un pulsante storia nel modulo colleziona"
 
 #: ../build/bin/preferences_gen.h:9062
 msgid ""
@@ -2365,7 +2369,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:9162
 msgid "number of recently attached tags"
-msgstr ""
+msgstr "Numero di etichette recentemente aggiunte"
 
 #: ../build/bin/preferences_gen.h:9186
 msgid ""
@@ -2616,7 +2620,6 @@ msgstr "Linearità"
 #: ../build/lib/darktable/plugins/introspection_watermark.c:118
 #: ../build/lib/darktable/plugins/introspection_watermark.c:235
 #: ../src/iop/ashift.c:5692
-#, fuzzy
 msgid "rotation"
 msgstr "Rotazione"
 
@@ -2667,9 +2670,8 @@ msgstr "Proporzioni"
 #: ../build/lib/darktable/plugins/introspection_borders.c:128
 #: ../build/lib/darktable/plugins/introspection_borders.c:263
 #: ../src/iop/flip.c:74 ../src/libs/print_settings.c:2365
-#, fuzzy
 msgid "orientation"
-msgstr "orientamento"
+msgstr "Orientamento"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:134
 #: ../build/lib/darktable/plugins/introspection_borders.c:267
@@ -2775,7 +2777,6 @@ msgstr "Aberrazione cromatica molto ampia"
 #: ../src/iop/channelmixerrgb.c:4179 ../src/iop/colorzones.c:2302
 #: ../src/iop/temperature.c:1819 ../src/iop/temperature.c:1992
 #: ../src/libs/collect.c:1793 ../src/libs/filters/colors.c:260
-#, fuzzy
 msgid "red"
 msgstr "Rosso"
 
@@ -2789,7 +2790,6 @@ msgstr "Rosso"
 #: ../src/iop/temperature.c:1803 ../src/iop/temperature.c:1821
 #: ../src/iop/temperature.c:1993 ../src/libs/collect.c:1793
 #: ../src/libs/filters/colors.c:262
-#, fuzzy
 msgid "green"
 msgstr "Verde"
 
@@ -2802,7 +2802,6 @@ msgstr "Verde"
 #: ../src/iop/channelmixerrgb.c:4181 ../src/iop/colorzones.c:2307
 #: ../src/iop/temperature.c:1823 ../src/iop/temperature.c:1994
 #: ../src/libs/collect.c:1793 ../src/libs/filters/colors.c:263
-#, fuzzy
 msgid "blue"
 msgstr "Blu"
 
@@ -3268,15 +3267,15 @@ msgstr "Contrasto"
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:418
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:589
 msgid "saturation formula"
-msgstr ""
+msgstr "Formula di saturazione"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:603
 msgid "JzAzBz (2021)"
-msgstr ""
+msgstr "JzAzBz (2021)"
 
 #: ../build/lib/darktable/plugins/introspection_colorbalancergb.c:604
 msgid "darktable UCS (2022)"
-msgstr ""
+msgstr "darktable UCS (2022)"
 
 #: ../build/lib/darktable/plugins/introspection_colorcontrast.c:54
 #: ../build/lib/darktable/plugins/introspection_colorcontrast.c:121
@@ -3400,7 +3399,7 @@ msgstr "Modalità di esecuzione"
 #: ../src/iop/exposure.c:1129
 #, fuzzy
 msgid "lightness"
-msgstr "Luminosità"
+msgstr "Tono"
 
 #: ../build/lib/darktable/plugins/introspection_colorzones.c:256
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:93
@@ -3418,7 +3417,6 @@ msgstr "Luminosità"
 #: ../src/iop/colorzones.c:2432 ../src/iop/lowpass.c:575
 #: ../src/iop/soften.c:399 ../src/iop/splittoning.c:483 ../src/iop/velvia.c:84
 #: ../src/iop/vibrance.c:72 ../src/iop/vignette.c:982
-#, fuzzy
 msgid "saturation"
 msgstr "Saturazione"
 
@@ -3473,7 +3471,6 @@ msgstr "Corrispondenza verdi"
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:167
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:141
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:260
-#, fuzzy
 msgid "edge threshold"
 msgstr "Soglia bordi"
 
@@ -3495,7 +3492,7 @@ msgstr "Affina lmmse"
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:120
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:183
 msgid "dual threshold"
-msgstr ""
+msgstr "Doppia soglia"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:197
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:204
@@ -3566,9 +3563,8 @@ msgid "Markesteijn 3-pass"
 msgstr "Markesteijn 3-passaggi"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:225
-#, fuzzy
 msgid "frequency domain chroma"
-msgstr "Cromaticità del dominio di frequenza"
+msgstr "Cromaticità nel dominio di frequenza"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:226
 msgid "Markesteijn 3-pass + VNG"
@@ -3626,7 +3622,6 @@ msgstr "Diffusione"
 
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:161
 #: ../build/lib/darktable/plugins/introspection_denoiseprofile.c:324
-#, fuzzy
 msgid "central pixel weight"
 msgstr "Peso del pixel centrale"
 
@@ -3668,9 +3663,8 @@ msgstr "Y0U0V0"
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:123
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:248
 #: ../src/iop/atrous.c:1633 ../src/iop/highpass.c:394
-#, fuzzy
 msgid "sharpness"
-msgstr "Nitidezza "
+msgstr "Nitidezza"
 
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:129
 #: ../build/lib/darktable/plugins/introspection_diffuse.c:252
@@ -3805,12 +3799,11 @@ msgstr "Luminanza del grigio medio"
 #: ../build/lib/darktable/plugins/introspection_profile_gamma.c:166
 #: ../src/iop/filmic.c:1617
 msgid "black relative exposure"
-msgstr "Esposizione nero relativo"
+msgstr "Esposizione relativa del nero"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:218
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:419
 #: ../src/iop/filmic.c:1605
-#, fuzzy
 msgid "white relative exposure"
 msgstr "Esposizione relativa del bianco"
 
@@ -3848,30 +3841,27 @@ msgstr "Grigio medio obiettivo"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:266
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:451
 #: ../src/iop/filmic.c:1738
-#, fuzzy
 msgid "target black luminance"
-msgstr "Imposta luminanza nero"
+msgstr "Obiettivo luminanza del nero"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:272
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:455
 #: ../src/iop/filmic.c:1756
-#, fuzzy
 msgid "target white luminance"
-msgstr "Imposta luminanza del bianco"
+msgstr "Obiettivo luminanza del bianco"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:278
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:459
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:69
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:140
 msgid "hardness"
-msgstr "Intensità"
+msgstr "Durezza"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:296
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:471
 #: ../src/iop/filmic.c:1687 ../src/iop/filmicrgb.c:4667
-#, fuzzy
 msgid "extreme luminance saturation"
-msgstr "Saturazione alte-luci"
+msgstr "Saturazione estrema della luminanza"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:302
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:475
@@ -3974,9 +3964,8 @@ msgid "v5 (2021)"
 msgstr "v5 (2021)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:545
-#, fuzzy
 msgid "v6 (2022)"
-msgstr "v3 (2021)"
+msgstr "v6 (2022)"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:549
 msgid "uniform"
@@ -4036,7 +4025,6 @@ msgstr "drago"
 
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:63
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:136
-#, fuzzy
 msgid "density"
 msgstr "Densità"
 
@@ -4063,7 +4051,7 @@ msgstr "Soglia di tosaggio"
 #: ../build/lib/darktable/plugins/introspection_highlights.c:149
 #: ../build/lib/darktable/plugins/introspection_highlights.c:244
 msgid "diameter of reconstruction"
-msgstr ""
+msgstr "Diametro della ricostruzione"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:155
 #: ../build/lib/darktable/plugins/introspection_highlights.c:248
@@ -4098,50 +4086,44 @@ msgid "guided laplacians"
 msgstr ""
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:281
-#, fuzzy
 msgid "4 px"
-msgstr "px"
+msgstr "4 px"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:282
-#, fuzzy
 msgid "8 px"
-msgstr "px"
+msgstr "8 px"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:283
-#, fuzzy
 msgid "16 px"
-msgstr "px"
+msgstr "16 px"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:284
-#, fuzzy
 msgid "32 px"
-msgstr "px"
+msgstr "32 px"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:285
-#, fuzzy
 msgid "64 px"
-msgstr "px"
+msgstr "64 px"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:286
-#, fuzzy
 msgid "128 px"
-msgstr "px"
+msgstr "128 px"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:287
 msgid "256 px (slow)"
-msgstr ""
+msgstr "256 px (lento)"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:288
 msgid "512 px (slow)"
-msgstr ""
+msgstr "512 px (lento)"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:289
 msgid "1024 px (very slow)"
-msgstr ""
+msgstr "1024 px (molto lento)"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:290
 msgid "2048 px (insanely slow)"
-msgstr ""
+msgstr "2048 px (estremamente lento)"
 
 #: ../build/lib/darktable/plugins/introspection_highpass.c:44
 #: ../build/lib/darktable/plugins/introspection_highpass.c:91
@@ -4395,9 +4377,8 @@ msgstr ""
 #: ../src/common/collection.c:689 ../src/gui/preferences.c:812
 #: ../src/gui/presets.c:570 ../src/iop/basicadj.c:598 ../src/iop/exposure.c:123
 #: ../src/iop/exposure.c:1030 ../src/libs/metadata_view.c:141
-#, fuzzy
 msgid "exposure"
-msgstr "esposizione"
+msgstr "Esposizione"
 
 #: ../build/lib/darktable/plugins/introspection_retouch.c:267
 #: ../build/lib/darktable/plugins/introspection_retouch.c:414
@@ -4409,7 +4390,6 @@ msgstr "Modalità di riempimento"
 #: ../src/iop/basicadj.c:620 ../src/iop/channelmixerrgb.c:4184
 #: ../src/iop/colisa.c:306 ../src/iop/lowpass.c:574 ../src/iop/soften.c:403
 #: ../src/iop/vignette.c:981 ../src/libs/history.c:868
-#, fuzzy
 msgid "brightness"
 msgstr "Luminosità"
 
@@ -4573,7 +4553,6 @@ msgstr "Diametro omogeinizzazione"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:210
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:333
-#, fuzzy
 msgid "edges refinement/feathering"
 msgstr "Rifinitura bordi/sfumatura"
 
@@ -4594,9 +4573,8 @@ msgstr "Compens. esposizione maschera"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:240
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:353
-#, fuzzy
 msgid "luminance estimator"
-msgstr "Stima luminanza"
+msgstr "Estimatore luminanza"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:246
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:357
@@ -4624,9 +4602,8 @@ msgid "RGB average"
 msgstr "Media RGB"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:380
-#, fuzzy
 msgid "HSL lightness"
-msgstr "Chiarezza HSL"
+msgstr "Tono HSL"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:381
 msgid "HSV value / RGB max"
@@ -4826,7 +4803,7 @@ msgstr "Forza"
 #: ../src/bauhaus/bauhaus.c:3461
 #, fuzzy
 msgid "zoom"
-msgstr "ingrandimento"
+msgstr "Ingrandimento"
 
 #: ../src/bauhaus/bauhaus.c:3464
 msgid "selection"
@@ -5068,15 +5045,15 @@ msgstr "Orario d'importazione"
 
 #: ../src/common/collection.c:616 ../src/common/collection.c:671
 msgid "modification time"
-msgstr ""
+msgstr "Orario di ultima modifica"
 
 #: ../src/common/collection.c:618 ../src/common/collection.c:673
 msgid "export time"
-msgstr ""
+msgstr "Orario di esportazione"
 
 #: ../src/common/collection.c:620 ../src/common/collection.c:675
 msgid "print time"
-msgstr ""
+msgstr "Orario di stampa"
 
 #: ../src/common/collection.c:622 ../src/common/collection.c:707
 #: ../src/common/ratings.c:321 ../src/develop/lightroom.c:1525
@@ -5142,7 +5119,7 @@ msgstr "Etichetta"
 
 #: ../src/common/collection.c:665
 msgid "capture date"
-msgstr ""
+msgstr "Data di acquisizione"
 
 #: ../src/common/collection.c:677 ../src/libs/collect.c:3313
 #: ../src/libs/filtering.c:1975 ../src/libs/filtering.c:1995
@@ -5196,7 +5173,7 @@ msgstr ""
 #: ../src/common/collection.c:709
 #, fuzzy
 msgid "search"
-msgstr "ricerca"
+msgstr "Ricerca"
 
 #: ../src/common/collection.c:1431 ../src/common/colorlabels.c:330
 #: ../src/develop/lightroom.c:836 ../src/gui/guides.c:732
@@ -5319,19 +5296,19 @@ msgstr "Grigio"
 #. L decreases with age in all ethnicities and with b/yellowness/melanine/tan.
 #: ../src/common/color_vocabulary.c:91
 msgid "Chinese"
-msgstr ""
+msgstr "Cinese"
 
 #: ../src/common/color_vocabulary.c:92
 msgid "Thai"
-msgstr ""
+msgstr "Tailandese"
 
 #: ../src/common/color_vocabulary.c:93
 msgid "Kurdish"
-msgstr ""
+msgstr "Curdo"
 
 #: ../src/common/color_vocabulary.c:94
 msgid "Caucasian"
-msgstr ""
+msgstr "Caucasico"
 
 #: ../src/common/color_vocabulary.c:95
 msgid "African-american"
@@ -5340,13 +5317,13 @@ msgstr ""
 #: ../src/common/color_vocabulary.c:98 ../src/common/color_vocabulary.c:103
 #: ../src/common/color_vocabulary.c:108 ../src/common/color_vocabulary.c:113
 msgid "forearm"
-msgstr ""
+msgstr "Avanbraccio"
 
 #: ../src/common/color_vocabulary.c:118 ../src/common/color_vocabulary.c:123
 #: ../src/common/color_vocabulary.c:128 ../src/common/color_vocabulary.c:133
 #: ../src/common/color_vocabulary.c:138 ../src/common/color_vocabulary.c:143
 msgid "forehead"
-msgstr ""
+msgstr "Fronte"
 
 #: ../src/common/color_vocabulary.c:148 ../src/common/color_vocabulary.c:153
 #: ../src/common/color_vocabulary.c:158 ../src/common/color_vocabulary.c:163

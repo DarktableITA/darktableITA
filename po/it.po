@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-28 20:14+0200\n"
+"PO-Revision-Date: 2022-05-28 23:25+0200\n"
 "Last-Translator: Luca Cignoni <cigno5@users.noreply.github.com>\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 3.30.1\n"
+"X-Generator: Gtranslator 3.36.0\n"
 
 #: ../build/bin/conf_gen.h:158 ../build/bin/preferences_gen.h:8285
 msgctxt "preferences"
@@ -1569,6 +1569,9 @@ msgid ""
 "many monochrome images can be identified via EXIF and preview data. beware: "
 "this slows down imports and reading of EXIF data"
 msgstr ""
+"Molte immagini in bianco e nero possono essere identificate usando i dati "
+"EXIF e i dati di anteprima. Fai attenzione: questo rallenta l'attività di "
+"import e lettura dei dati EXIF"
 
 #: ../build/bin/preferences_gen.h:6290
 msgid "show warning messages"
@@ -1593,7 +1596,7 @@ msgstr "CPU / GPU / Memoria"
 
 #: ../build/bin/preferences_gen.h:6334
 msgid "darktable resources"
-msgstr ""
+msgstr "Risorse darktable"
 
 #: ../build/bin/preferences_gen.h:6382
 #, c-format
@@ -1611,6 +1614,20 @@ msgid ""
 "swapping and unexpected performance drops. use with caution and not "
 "recommended for general use!"
 msgstr ""
+"Stabilisce quante risorse di sistema darktable può occupare.\n"
+" - predefinito: darktable occupa ~50%% delle risorse di sistema e fornisce a "
+"darktable abbastanza spazio per mantenerlo prestante.\n"
+" - piccolo: dovrebbe essere usato se stai eseguendo simultameneamente "
+"applicazioni che occupano grandi aree della memoria di sistema, o "
+"applicazioni OpenCL/GL tipo giochi o hugin.\n"
+" - grande: questa è la migliore opzione se stai usando principalmente "
+"darktable e vuoi che prenda la maggior parte delle risorse di sistema per le "
+"prestazioni.\n"
+" - illimitato: dovrebbe essere usato soltanto per sviluppare immagini "
+"estremamente grandi, in quanto darktable occuperà tutte le risorse di "
+"sistema, e ciò potrebbe portare a fare swapping con un decremento "
+"inaspettato delle prestazioni. Usare con cautela, non è raccomandato per uso "
+"generale!"
 
 #: ../build/bin/preferences_gen.h:6404
 msgid "prefer performance over quality"
@@ -1629,7 +1646,6 @@ msgid "enable disk backend for thumbnail cache"
 msgstr "Gestore disco per la cache delle anteprime"
 
 #: ../build/bin/preferences_gen.h:6454
-#, fuzzy
 msgid ""
 "if enabled, write thumbnails to disk (.cache/darktable/) when evicted from "
 "the memory cache. note that this can take a lot of memory (several gigabytes "
@@ -1638,21 +1654,20 @@ msgid ""
 "be increased greatly when browsing a lot. to generate all thumbnails of your "
 "entire collection offline, run 'darktable-generate-cache'."
 msgstr ""
-"Se abilitato, scrivi le anteprime su disco (.cache/darktable/) quando sono "
-"recuperate dalla memoria cache. Nota che ciò può richiedere molta memoria "
-"(alcuni gigabyte per 20mila immagini) e le anteprime memorizzate non "
-"verranno mai più eliminate. Tuttavia, se si vuole è possibile cancellarle "
-"manualmente. Le prestazioni della modalità Tavolo Luminoso verranno "
-"incrementate notevolmente durante la navigazione. Per generare tutte le "
-"anteprime dell'intera raccolta, eseguire il comando 'darktable-generate-"
-"cache'."
+"Se abilitato, scrive le anteprime su disco (.cache/darktable/) quando "
+"vengono rimosse dalla memoria cache. Nota che ciò può richiedere molta "
+"memoria (alcuni gigabyte per 20mila immagini) e le anteprime memorizzate in "
+"cache non verranno mai più eliminate. Tuttavia, se si vuole è possibile "
+"cancellarle manualmente. Le prestazioni della modalità Tavolo Luminoso "
+"verranno incrementate notevolmente durante la navigazione. Per generare "
+"tutte le anteprime dell'intera raccolta, eseguire il comando 'darktable-"
+"generate-cache'."
 
 #: ../build/bin/preferences_gen.h:6476
 msgid "enable disk backend for full preview cache"
 msgstr "Abilita la gestione disco per la cache delle anteprime"
 
 #: ../build/bin/preferences_gen.h:6490
-#, fuzzy
 msgid ""
 "if enabled, write full preview to disk (.cache/darktable/) when evicted from "
 "the memory cache. note that this can take a lot of memory (several gigabytes "
@@ -1660,12 +1675,12 @@ msgid ""
 "though to delete these manually, if you want. light table performance will "
 "be increased greatly when zooming image in full preview mode."
 msgstr ""
-"Se abilitato, scrivi le anteprime su disco (.cache/darktable/) quando sono "
-"recuperate dalla memoria della cache. Nota che ciò può richiedere molta "
-"memoria (alcuni gigabyte per 20mila immagini) e le anteprime memorizzate non "
-"verranno mai più eliminate. Tuttavia, se si vuole è possibile cancellarle "
-"manualmente. Le prestazioni della modalità Tavolo Luminoso verranno "
-"incrementate notevolmente ingrandendo l'immagine."
+"Se abilitato, scrive le anteprime su disco (.cache/darktable/) quando "
+"vengono rimosse dalla memoria della cache. Nota che ciò può richiedere molta "
+"memoria (alcuni gigabyte per 20mila immagini) e le anteprime memorizzate "
+"nella cache non verranno mai più eliminate. Tuttavia, se si vuole è "
+"possibile cancellarle manualmente. Le prestazioni della modalità Tavolo "
+"Luminoso verranno incrementate notevolmente ingrandendo l'immagine."
 
 #: ../build/bin/preferences_gen.h:6512
 msgid "activate OpenCL support"
@@ -1712,7 +1727,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:6625
 msgid "tune OpenCL performance"
-msgstr ""
+msgstr "Ottimizza le prestazioni OpenCL"
 
 #: ../build/bin/preferences_gen.h:6673
 msgid ""
@@ -1720,11 +1735,14 @@ msgid ""
 "graphics ram, 'memory transfer' tries a faster memory access mode (pinned "
 "memory) used for tiling."
 msgstr ""
+"Permette, durante l'esecuzione, di ottimizzare i dispositivi OpenCL. "
+"'dimensione memoria' esegue il test della memora grafica disponibile, "
+"'trasferimento di memoria' tenta una modalità di accesso più rapido alla "
+"memoria (pinned memory) usata per il tiling."
 
 #: ../build/bin/preferences_gen.h:6707
-#, fuzzy
 msgid "security"
-msgstr "sicurezza"
+msgstr "Sicurezza"
 
 #: ../build/bin/preferences_gen.h:6730
 msgid "ask before removing images from the library"
@@ -1733,6 +1751,8 @@ msgstr "Chiedi prima di rimuovere immagini dalla biblioteca"
 #: ../build/bin/preferences_gen.h:6744
 msgid "always ask the user before removing image information from the library"
 msgstr ""
+"chiedi sempre prima di rimuovere le informazioni di un'immagine dalla "
+"bibilioteca"
 
 #: ../build/bin/preferences_gen.h:6766
 msgid "ask before deleting images from disk"
@@ -1819,9 +1839,8 @@ msgstr "Chiedi conferma prima di esportare i file in modalità sovrascrittura"
 
 #. italic
 #: ../build/bin/preferences_gen.h:7112 ../src/libs/tools/viewswitcher.c:149
-#, fuzzy
 msgid "other"
-msgstr "altro"
+msgstr "Altro"
 
 #: ../build/bin/preferences_gen.h:7132
 msgid "password storage backend to use"
@@ -1848,12 +1867,11 @@ msgstr ""
 #: ../build/bin/preferences_gen.h:7250
 #, fuzzy
 msgid "storage"
-msgstr "archivio"
+msgstr "Supporto"
 
 #: ../build/bin/preferences_gen.h:7253 ../src/control/crawler.c:609
-#, fuzzy
 msgid "database"
-msgstr "base dati"
+msgstr "database"
 
 #: ../build/bin/preferences_gen.h:7273
 msgid "check for database maintenance"
@@ -1925,7 +1943,6 @@ msgstr ""
 "solo della più recente per ripristinare con successo."
 
 #: ../build/bin/preferences_gen.h:7511 ../src/control/crawler.c:608
-#, fuzzy
 msgid "xmp"
 msgstr "xmp"
 
@@ -1978,32 +1995,35 @@ msgstr ""
 "nel frattempo alcuni sono stati aggiornati"
 
 #: ../build/bin/preferences_gen.h:7703
-#, fuzzy
 msgid "miscellaneous"
-msgstr "altro"
+msgstr "Altro"
 
 #: ../build/bin/preferences_gen.h:7706
-#, fuzzy
 msgid "interface"
-msgstr "interfaccia"
+msgstr "Interfaccia"
 
 #: ../build/bin/preferences_gen.h:7726
 msgid "load default shortcuts at startup"
-msgstr ""
+msgstr "Carica le scorciatoie predefinite all'avvio"
 
 #: ../build/bin/preferences_gen.h:7740
 msgid ""
 "load default shortcuts before user settings. switch off to prevent deleted "
 "defaults returning"
 msgstr ""
+"Carica le scorciatoie predefinite prima delle impostazioni utente. "
+"Disattivare per prevenire che le scorciatoie predefinite eliminate vengano "
+"ripristinate"
 
 #: ../build/bin/preferences_gen.h:7762
 msgid "scale slider step with min/max"
-msgstr ""
+msgstr "Adatta il passo del selettore scorrevole con minimo/massimo"
 
 #: ../build/bin/preferences_gen.h:7776
 msgid "vary bauhaus slider step size with min/max range"
 msgstr ""
+"Modifica il passo dei selettori scorriveoli a seconda dell'intervallo minimo/"
+"massimo"
 
 #: ../build/bin/preferences_gen.h:7798
 msgid "sort built-in presets first"
@@ -2034,13 +2054,12 @@ msgid "always show panels' scrollbars"
 msgstr "Mostra sempre le barre di scorrimento dei pannelli"
 
 #: ../build/bin/preferences_gen.h:7884
-#, fuzzy
 msgid ""
 "defines whether the panel scrollbars should be always visible or activated "
 "only depending on the content.  (need a restart)"
 msgstr ""
-"Definisce se le barre di scorrimento dei pannelli devono essere sempre "
-"visibili o se devono essere attivate solo in base al contenuto (necessario "
+"Stabilisce se le barre di scorrimento dei pannelli debbano essere sempre "
+"visibili o se debbano essere attivate solo in base al contenuto (necessario "
 "il riavvio)"
 
 #: ../build/bin/preferences_gen.h:7906
@@ -2067,7 +2086,7 @@ msgstr ""
 
 #: ../build/bin/preferences_gen.h:8031
 msgid "order or exclude midi devices"
-msgstr ""
+msgstr "Ordina o escludi dispositivi midi"
 
 #: ../build/bin/preferences_gen.h:8049
 msgid ""
@@ -2075,28 +2094,31 @@ msgid ""
 "device at id given by location in list or if preceded by - prevent matching "
 "devices from loading. add encoding and number of knobs like 'BeatStep:63:16'"
 msgstr ""
+"una lista di termini separati da virgola con i frammenti dei nomi dei "
+"dispositivi i quali, se corrispondono, caricano i dispositivi midi "
+"all'identificativo dato dalla posizione della lista, se preceduto - "
+"impedisce che i dispositivi corrispondenti vengano caricati. Aggiungi "
+"l'encoding e il numero di manopole tipo 'BeatStep:63:16'"
 
 #. tags
 #: ../build/bin/preferences_gen.h:8065 ../src/develop/lightroom.c:1516
 #: ../src/gui/import_metadata.c:476 ../src/libs/export_metadata.c:331
 #: ../src/libs/image.c:560 ../src/libs/metadata_view.c:162
-#, fuzzy
 msgid "tags"
-msgstr "etichette"
+msgstr "Etichette"
 
 #: ../build/bin/preferences_gen.h:8085
 msgid "omit hierarchy in simple tag lists"
 msgstr "Nasconde la gerarchia e visualizza una lista di etichette"
 
 #: ../build/bin/preferences_gen.h:8099
-#, fuzzy
 msgid ""
 "when creating XMP file the hierarchical tags are also added as a simple list "
 "of non-hierarchical ones to make them visible to some other programs. when "
 "this option is checked darktable will only include their last part and "
 "ignore the rest. so 'foo|bar|baz' will only add 'baz'."
 msgstr ""
-"Quando si crea il file XMP le etichette gerarchiche vengono aggiunte come "
+"Quando si crea il file XMP, le etichette gerarchiche vengono aggiunte come "
 "una lista di etichette non-gerarchiche per renderle visibili ad altri "
 "programmi. Quando questa opzione è abilitata darktable includerà solo "
 "l'ultima parte e ignorerà il resto. In questo modo 'foo|bar|baz' diventerà "

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-29 00:01+0200\n"
+"PO-Revision-Date: 2022-05-29 10:02+0200\n"
 "Last-Translator: Luca Cignoni <cigno5@users.noreply.github.com>\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 3.36.0\n"
+"X-Generator: Gtranslator 3.30.1\n"
 
 #: ../build/bin/conf_gen.h:158 ../build/bin/preferences_gen.h:8285
 msgctxt "preferences"
@@ -4801,7 +4801,6 @@ msgid "force"
 msgstr "Forza"
 
 #: ../src/bauhaus/bauhaus.c:3461
-#, fuzzy
 msgid "zoom"
 msgstr "Ingrandimento"
 
@@ -5143,9 +5142,8 @@ msgstr "Diaframma"
 
 #: ../src/common/collection.c:695 ../src/develop/lightroom.c:1541
 #: ../src/libs/geotagging.c:141
-#, fuzzy
 msgid "geotagging"
-msgstr "etichettatura geografica"
+msgstr "Geolocalizzazione"
 
 #: ../src/common/collection.c:697 ../src/libs/tools/global_toolbox.c:396
 msgid "grouping"
@@ -5171,7 +5169,6 @@ msgid "range rating"
 msgstr ""
 
 #: ../src/common/collection.c:709
-#, fuzzy
 msgid "search"
 msgstr "Ricerca"
 
@@ -5245,7 +5242,7 @@ msgid "%d image of %d (#%d) in current collection is selected"
 msgstr "Selezionata %d immagine di %d (#%d) nella raccolta attuale"
 
 #: ../src/common/collection.c:2447
-#, fuzzy, c-format
+#, c-format
 msgid "%d image of %d in current collection is selected"
 msgid_plural "%d images of %d in current collection are selected"
 msgstr[0] "%d immagine di %d è stata selezionata nella raccolta"
@@ -5312,7 +5309,7 @@ msgstr "Caucasico"
 
 #: ../src/common/color_vocabulary.c:95
 msgid "African-american"
-msgstr ""
+msgstr "Afro-americano"
 
 #: ../src/common/color_vocabulary.c:98 ../src/common/color_vocabulary.c:103
 #: ../src/common/color_vocabulary.c:108 ../src/common/color_vocabulary.c:113
@@ -5576,7 +5573,7 @@ msgstr ""
 
 #: ../src/common/color_vocabulary.c:344
 msgid "color not found"
-msgstr ""
+msgstr "Colore non trovato"
 
 #: ../src/common/colorlabels.c:305
 #, c-format
@@ -5764,11 +5761,11 @@ msgstr "Errore nel caricamento del file '%s'"
 
 #: ../src/common/darktable.c:1295
 msgid "configuration information"
-msgstr ""
+msgstr "Informazioni di configurazione"
 
 #: ../src/common/darktable.c:1297
 msgid "show this information again"
-msgstr ""
+msgstr "Mostra ancora quest'informazione"
 
 #: ../src/common/darktable.c:1297
 msgid "understood"
@@ -5779,16 +5776,22 @@ msgid ""
 "the RCD demosaicer has been defined as default instead of PPG because of "
 "better quality and performance."
 msgstr ""
+"L'algoritmo di demosaicizzazione RCD è stato impostato come predefinito al "
+"posto del PPG in quanto migliore in termini di qualità e prestazioni."
 
 #: ../src/common/darktable.c:1731
 msgid "see preferences/darkroom/demosaicing for zoomed out darkroom mode"
 msgstr ""
+"Vedi Preferenze/Camera Oscura/Demosaicizzazione per le modalità ingrandite "
+"della Camera Oscura"
 
 #: ../src/common/darktable.c:1737
 msgid ""
 "the user interface and the underlying internals for tuning darktable "
 "performance have changed."
 msgstr ""
+"L'interfaccia utente e i meccanismi interni per ottimizzare le prestazioni "
+"di darktable sono state cambiate."
 
 #: ../src/common/darktable.c:1739
 msgid ""
@@ -6279,13 +6282,15 @@ msgstr[1] "%d copie locali sono state sincronizzate"
 
 #: ../src/common/image.c:2792
 msgid "<b>WARNING</b> : camera is missing samples!"
-msgstr ""
+msgstr "<b>ATTENZIONE</b>: La fotocamera manca di campioni!"
 
 #: ../src/common/image.c:2793
 msgid ""
 "You must provide samples in <a href='https://raw.pixls.us/'>https://raw."
 "pixls.us/</a>"
 msgstr ""
+"Devi fornire campioni su <a href='https://raw.pixls.us/'>https://raw.pixls."
+"us/</a>"
 
 #: ../src/common/image.c:2794
 #, c-format
@@ -6293,10 +6298,12 @@ msgid ""
 "for `%s' `%s'\n"
 "in as many format/compression/bit depths as possible"
 msgstr ""
+"per `%s' `%s'\n"
+"in quanti più possibili formati/compressione/profondità di bit possibile"
 
 #: ../src/common/image.c:2797
 msgid "or the <b>RAW won't be readable</b> in next version."
-msgstr ""
+msgstr "o il <b>file RAW non sarà leggibile</b> nella prossima versione."
 
 #: ../src/common/image.h:169 ../src/common/ratings.c:283
 #: ../src/libs/history.c:763 ../src/libs/snapshots.c:455
@@ -6350,7 +6357,7 @@ msgstr "avif"
 
 #: ../src/common/image.h:181
 msgid "ImageMagick"
-msgstr ""
+msgstr "ImageMagick"
 
 #: ../src/common/image.h:182
 msgid "heif"
@@ -6358,11 +6365,11 @@ msgstr ""
 
 #: ../src/common/image.h:183
 msgid "libraw"
-msgstr ""
+msgstr "libraw"
 
 #: ../src/common/imagebuf.c:131
 msgid "insufficient memory"
-msgstr ""
+msgstr "Memoria insufficiente"
 
 #: ../src/common/imagebuf.c:132
 msgid ""
@@ -6392,7 +6399,6 @@ msgid "thumbnail export"
 msgstr "Esporta anteprima"
 
 #: ../src/common/imageio.c:759
-#, fuzzy
 msgctxt "noun"
 msgid "export"
 msgstr "Esporta"
@@ -6510,7 +6516,7 @@ msgstr "pollici"
 
 #: ../src/common/pdf.h:91
 msgid "\""
-msgstr ""
+msgstr "\""
 
 #: ../src/common/pdf.h:104
 msgid "a4"
@@ -6565,9 +6571,8 @@ msgstr "Immagine valutata a %s"
 
 #: ../src/common/ratings.c:305 ../src/libs/select.c:39
 #: ../src/views/lighttable.c:752
-#, fuzzy
 msgid "select"
-msgstr "seleziona"
+msgstr "Seleziona"
 
 #: ../src/common/ratings.c:306
 msgid "upgrade"
@@ -6612,9 +6617,8 @@ msgstr "Stile con nome '%s' già esistente"
 
 #: ../src/common/styles.c:485 ../src/common/styles.c:562
 #: ../src/common/styles.c:1563 ../src/libs/styles.c:52
-#, fuzzy
 msgid "styles"
-msgstr "stili"
+msgstr "Stili"
 
 #: ../src/common/styles.c:488 ../src/gui/styles_dialog.c:233
 #, c-format
@@ -6693,7 +6697,6 @@ msgid "modifiers"
 msgstr "Modificatori"
 
 #: ../src/control/control.c:109
-#, fuzzy
 msgctxt "accel"
 msgid "global"
 msgstr "Globale"

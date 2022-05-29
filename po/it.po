@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-29 10:02+0200\n"
+"PO-Revision-Date: 2022-05-29 13:43+0200\n"
 "Last-Translator: Luca Cignoni <cigno5@users.noreply.github.com>\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
 "Language: it\n"
@@ -2376,6 +2376,8 @@ msgid ""
 "number of recently attached tags which are included in the suggestions list. "
 "the value `-1' disables the recent list"
 msgstr ""
+"Numero di etichette aggiunte di recente che devono essere incluse nella "
+"lista dei suggerimenti. Il valore '-1' disabilita la lista dei recenti"
 
 #: ../build/lib/darktable/plugins/introspection_ashift.c:130
 #: ../build/lib/darktable/plugins/introspection_ashift.c:279
@@ -4061,7 +4063,7 @@ msgstr ""
 #: ../build/lib/darktable/plugins/introspection_highlights.c:161
 #: ../build/lib/darktable/plugins/introspection_highlights.c:252
 msgid "combine segments"
-msgstr ""
+msgstr "Combina i segmenti"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:173
 #: ../build/lib/darktable/plugins/introspection_highlights.c:260
@@ -5569,7 +5571,7 @@ msgstr "Magenta"
 
 #: ../src/common/color_vocabulary.c:341
 msgid "lavender"
-msgstr ""
+msgstr "Lavanda"
 
 #: ../src/common/color_vocabulary.c:344
 msgid "color not found"
@@ -5801,17 +5803,19 @@ msgstr ""
 
 #: ../src/common/darktable.c:1741
 msgid "1) darktable resources"
-msgstr ""
+msgstr "1) Risorse dartkable"
 
 #: ../src/common/darktable.c:1743
 msgid "2) tune OpenCL performance"
-msgstr ""
+msgstr "2) Ottimizza prestazioni OpenCL"
 
 #: ../src/common/darktable.c:1750
 msgid ""
 "some global config values relevant for OpenCL performance are not used any "
 "longer."
 msgstr ""
+"Alcuni valori di configurazione globale rilevanti per le prestazioni OpenCL "
+"non sono più usate."
 
 #: ../src/common/darktable.c:1752
 msgid ""
@@ -6189,7 +6193,6 @@ msgid "darktable » %s"
 msgstr "darktable » %s"
 
 #: ../src/common/http_server.c:97
-#, fuzzy
 msgid "<h1>Sorry,</h1><p>something went wrong. Please try again.</p>"
 msgstr ""
 "<h1>Spiacenti,</h1><p>qualcosa è andato storto. Per favore prova di nuovo.</"
@@ -6378,6 +6381,10 @@ msgid ""
 "the image.  some or all processing\n"
 "has been skipped."
 msgstr ""
+"Questo modulo non è riuscito ad allocare\n"
+"tutta la memoria necessaria per elaborare\n"
+"l'immagine. Tutte o alcune delle elaborazioni\n"
+"sono state saltate."
 
 #: ../src/common/imageio.c:740 ../src/common/mipmap_cache.c:1074
 #, c-format
@@ -6702,7 +6709,6 @@ msgid "global"
 msgstr "Globale"
 
 #: ../src/control/control.c:110
-#, fuzzy
 msgctxt "accel"
 msgid "views"
 msgstr "Viste"
@@ -6718,7 +6724,6 @@ msgid "utility modules"
 msgstr "Moduli utilità"
 
 #: ../src/control/control.c:113
-#, fuzzy
 msgctxt "accel"
 msgid "processing modules"
 msgstr "Moduli di elaborazione"
@@ -6747,7 +6752,7 @@ msgid "working..."
 msgstr "Elaborazione..."
 
 #: ../src/control/crawler.c:359
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: %s NOT synced XMP → DB"
 msgstr "ERRORE: %s NON sincronizzato XMP → DB"
 
@@ -6761,12 +6766,12 @@ msgstr ""
 "in linea o in sola lettura."
 
 #: ../src/control/crawler.c:365
-#, fuzzy, c-format
+#, c-format
 msgid "SUCCESS: %s synced XMP → DB"
 msgstr "SUCCESSO: %s sincronizzato XMP → DB"
 
 #: ../src/control/crawler.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "ERROR: %s NOT synced DB → XMP"
 msgstr "ERRORE: %s NON sincronizzato DB → XMP"
 
@@ -7117,7 +7122,7 @@ msgstr[1] "Esporto %d immagini.."
 
 #: ../src/control/jobs/control_jobs.c:1364
 msgid "no image to export"
-msgstr ""
+msgstr "Nessuna immagine da esportare"
 
 #: ../src/control/jobs/control_jobs.c:1396
 #, c-format
@@ -7277,9 +7282,8 @@ msgid "local copy images"
 msgstr "Copia immagini locale"
 
 #: ../src/control/jobs/control_jobs.c:1803 ../src/libs/image.c:607
-#, fuzzy
 msgid "refresh EXIF"
-msgstr "Aggiorna Exif"
+msgstr "Aggiorna dati EXIF"
 
 #: ../src/control/jobs/control_jobs.c:1867
 #, c-format
@@ -7446,7 +7450,6 @@ msgid "screen"
 msgstr "Scherma"
 
 #: ../src/develop/blend_gui.c:56 ../src/libs/live_view.c:341
-#, fuzzy
 msgctxt "blendmode"
 msgid "overlay"
 msgstr "Sovrapponi"

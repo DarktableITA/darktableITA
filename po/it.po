@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-29 13:43+0200\n"
+"PO-Revision-Date: 2022-05-30 08:39+0200\n"
 "Last-Translator: Luca Cignoni <cigno5@users.noreply.github.com>\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
 "Language: it\n"
@@ -3399,7 +3399,6 @@ msgstr "Modalità di esecuzione"
 #: ../src/iop/channelmixerrgb.c:4134 ../src/iop/colorchecker.c:1358
 #: ../src/iop/colorize.c:363 ../src/iop/colorzones.c:2431
 #: ../src/iop/exposure.c:1129
-#, fuzzy
 msgid "lightness"
 msgstr "Tono"
 
@@ -7754,9 +7753,8 @@ msgid "h"
 msgstr "h"
 
 #: ../src/develop/blend_gui.c:1977
-#, fuzzy
 msgid "sliders for hue channel (of LCh)"
-msgstr "Selettore scorrevole per il canale tinta (di LCh)"
+msgstr "Selettore scorrevole per il canale tonalità (di LCh)"
 
 #: ../src/develop/blend_gui.c:1984 ../src/develop/blend_gui.c:2011
 msgid "g"
@@ -7804,7 +7802,6 @@ msgid "H"
 msgstr "H"
 
 #: ../src/develop/blend_gui.c:1996
-#, fuzzy
 msgid "sliders for hue channel (of HSL)"
 msgstr "Selettore scorrevole per il canale di tonalità (di HSL)"
 
@@ -7823,7 +7820,6 @@ msgstr "Selettore scorrevole per il canale cromaticità (di HSL)"
 #: ../src/iop/colorbalancergb.c:2062 ../src/iop/colorbalancergb.c:2069
 #: ../src/iop/colorbalancergb.c:2070 ../src/iop/colorbalancergb.c:2071
 #: ../src/iop/equalizer.c:391 ../src/iop/nlmeans.c:522
-#, fuzzy
 msgid "chroma"
 msgstr "Cromaticità"
 
@@ -7927,6 +7923,12 @@ msgid ""
 "press 'c' to toggle view of channel data.\n"
 "press 'm' to toggle mask view."
 msgstr ""
+"doppio click per resettare.\n"
+"premi 'a' per abilitare/disabilitare le modalità disponibili di selettori "
+"scorrevoli.\n"
+"premi 'c' per abilitare/disabilitare la visualizzazione dei dati dei "
+"canali.\n"
+"premi 'm' per abilitare/disabilitare la visualizzazione maschera."
 
 #: ../src/develop/blend_gui.c:2228 ../src/develop/blend_gui.c:3056
 #: ../src/iop/basicadj.c:600 ../src/iop/colorbalancergb.c:2020
@@ -7943,9 +7945,8 @@ msgstr ""
 #: ../src/iop/toneequal.c:3153 ../src/iop/toneequal.c:3156
 #: ../src/iop/toneequal.c:3250 ../src/iop/toneequal.c:3257
 #: ../src/iop/toneequal.c:3267 ../src/views/darkroom.c:2378
-#, fuzzy
 msgid " EV"
-msgstr "-8 EV"
+msgstr " EV"
 
 #: ../src/develop/blend_gui.c:2229 ../src/develop/blend_gui.c:2321
 #: ../src/develop/blend_gui.c:2501 ../src/develop/blend_gui.c:2564
@@ -8056,15 +8057,13 @@ msgid "darken modes"
 msgstr "Modalità scurisci"
 
 #: ../src/develop/blend_gui.c:2657
-#, fuzzy
 msgid "contrast enhancing modes"
-msgstr "modalità aumento contrasto"
+msgstr "Modalità aumento contrasto"
 
 #: ../src/develop/blend_gui.c:2667 ../src/develop/blend_gui.c:2680
 #: ../src/develop/blend_gui.c:2705
-#, fuzzy
 msgid "color channel modes"
-msgstr "modalità canali colore"
+msgstr "Modalità canali colore"
 
 #: ../src/develop/blend_gui.c:2695
 msgid "normal & arithmetic modes"
@@ -8191,7 +8190,6 @@ msgid "mask opacity"
 msgstr "Opacità maschera"
 
 #: ../src/develop/blend_gui.c:3109
-#, fuzzy
 msgid ""
 "shifts and tilts the tone curve of the blend mask to adjust its brightness "
 "without affecting fully transparent/fully opaque regions"
@@ -8414,9 +8412,8 @@ msgstr "reset"
 #. Adding the outer container
 #: ../src/develop/imageop.c:3233 ../src/gui/preferences.c:774
 #: ../src/libs/lib.c:1291
-#, fuzzy
 msgid "presets"
-msgstr "preset"
+msgstr "Preset"
 
 #: ../src/develop/imageop.c:3245
 msgid "processing module"
@@ -8571,7 +8568,7 @@ msgid "<b>rotate</b>: ctrl+drag"
 msgstr "<b>Ruota</b>: Ctrl+trascina"
 
 #: ../src/develop/masks/ellipse.c:2192
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>feather mode</b>: shift+click, <b>rotate</b>: ctrl+drag\n"
 "<b>size</b>: scroll, <b>feather size</b>: shift+scroll, <b>opacity</b>: ctrl"
@@ -8579,7 +8576,7 @@ msgid ""
 msgstr ""
 "<b>modo sfumatura</b>: shift+click, <b>ruota</b>: ctrl+trascina\n"
 "<b>dimensione</b>: rotella mouse, <b>dimensione sfumatura</b>: shift+rotella "
-"mouse,  <b>opacità</b>: ctrl + rotella mouse (%d%%)"
+"mouse, <b>opacità</b>: ctrl + rotella mouse (%d%%)"
 
 #: ../src/develop/masks/gradient.c:101 ../src/develop/masks/gradient.c:140
 #, c-format
@@ -8823,14 +8820,13 @@ msgid "no image selected !"
 msgstr "Nessuna immagine selezionata!"
 
 #: ../src/dtgtk/range.c:211 ../src/dtgtk/range.c:216
-#, fuzzy
 msgid "invalid"
-msgstr "(non valido)"
+msgstr "Non valido"
 
 #: ../src/dtgtk/range.c:328
 #, c-format
 msgid "year %s"
-msgstr ""
+msgstr "Anno %s"
 
 #: ../src/dtgtk/range.c:406
 msgid ""

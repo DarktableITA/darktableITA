@@ -1,23 +1,24 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
+#
 # Matteo Mardegan <11093569+mmardegan@users.noreply.github.com>, 2022.
 # Luca Cignoni <cigno5@users.noreply.github.com>, 2022.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-25 21:28+0200\n"
-"PO-Revision-Date: 2022-05-30 08:39+0200\n"
-"Last-Translator: Luca Cignoni <cigno5@users.noreply.github.com>\n"
+"PO-Revision-Date: 2022-05-31 23:51+0200\n"
+"Last-Translator: Matteo Mardegan <11093569+mmardegan@users.noreply.github.com>"
+"\n"
 "Language-Team: Italian <darktable-dev@lists.darktable.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 3.30.1\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: ../build/bin/conf_gen.h:158 ../build/bin/preferences_gen.h:8285
 msgctxt "preferences"
@@ -9446,7 +9447,6 @@ msgstr "Aggiorna"
 
 #: ../src/gui/accelerators.c:146 ../src/libs/tools/global_toolbox.c:61
 #: ../src/libs/tools/global_toolbox.c:512
-#, fuzzy
 msgid "preferences"
 msgstr "Preferenze"
 
@@ -9530,7 +9530,6 @@ msgid "speed"
 msgstr "Velocità"
 
 #: ../src/gui/accelerators.c:664
-#, fuzzy
 msgid ""
 "press Del to delete selected shortcut\n"
 "double-click to add new shortcut\n"
@@ -9719,7 +9718,6 @@ msgstr ""
 #: ../src/gui/accelerators.c:1956 ../src/gui/preferences.c:877
 #: ../src/libs/tools/global_toolbox.c:496
 #: ../src/libs/tools/global_toolbox.c:819
-#, fuzzy
 msgid "shortcuts"
 msgstr "Scorciatoie"
 
@@ -9936,9 +9934,8 @@ msgid "tethering"
 msgstr "Tethering (scatto remoto)"
 
 #: ../src/gui/gtk.c:1178 ../src/views/map.c:197
-#, fuzzy
 msgid "map"
-msgstr "mappa"
+msgstr "Mappa"
 
 #: ../src/gui/gtk.c:1179 ../src/views/slideshow.c:344
 msgid "slideshow"
@@ -10524,9 +10521,8 @@ msgid "interface language"
 msgstr "Lingua interfaccia"
 
 #: ../src/gui/preferences.c:290
-#, fuzzy
 msgid "double-click to reset to the system language"
-msgstr "Doppio click per azzerare alla lingua di sistema"
+msgstr "Doppio click per ripristinare alla lingua di sistema"
 
 #: ../src/gui/preferences.c:292
 msgid ""
@@ -10688,9 +10684,8 @@ msgstr "HDR"
 
 #: ../src/gui/presets.c:59 ../src/iop/monochrome.c:77 ../src/libs/image.c:611
 #: ../src/libs/metadata_view.c:341
-#, fuzzy
 msgid "monochrome"
-msgstr "scala di grigio"
+msgstr "Scala di grigi"
 
 #: ../src/gui/presets.c:165
 #, c-format
@@ -10699,7 +10694,7 @@ msgstr "La preimpostazione '%s' è di sola lettura! Non puoi cancellarla!"
 
 #: ../src/gui/presets.c:177 ../src/gui/presets.c:413 ../src/libs/lib.c:248
 #: ../src/libs/modulegroups.c:3748
-#, fuzzy, c-format
+#, c-format
 msgid "do you really want to delete the preset `%s'?"
 msgstr "Vuoi veramente eliminare la preimpostazione `%s'?"
 
@@ -10714,22 +10709,19 @@ msgstr "Elimino impostazione?"
 #. then show edit dialog
 #: ../src/gui/presets.c:210 ../src/gui/presets.c:856 ../src/gui/presets.c:862
 #: ../src/libs/lib.c:195 ../src/libs/lib.c:212 ../src/libs/lib.c:223
-#, fuzzy
 msgid "new preset"
 msgstr "Nuova preimpostazione"
 
 #: ../src/gui/presets.c:215
-#, fuzzy
 msgid "please give preset a name"
 msgstr "Per favore, dai un nome alla preimpostazione"
 
 #: ../src/gui/presets.c:220
-#, fuzzy
 msgid "unnamed preset"
 msgstr "Preimpostazione senza nome"
 
 #: ../src/gui/presets.c:249
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "preset `%s' already exists.\n"
 "do you want to overwrite?"
@@ -10738,9 +10730,8 @@ msgstr ""
 "Vuoi sovrascriverlo?"
 
 #: ../src/gui/presets.c:254
-#, fuzzy
 msgid "overwrite preset?"
-msgstr "Sovrascrivo preset?"
+msgstr "Sovrascrivo la preimpostazione?"
 
 #: ../src/gui/presets.c:376 ../src/imageio/storage/disk.c:122
 #: ../src/imageio/storage/gallery.c:109 ../src/imageio/storage/latex.c:108
@@ -10762,7 +10753,6 @@ msgid "_export..."
 msgstr "_Esporta..."
 
 #: ../src/gui/presets.c:494
-#, fuzzy
 msgid "name of the preset"
 msgstr "Nome della preimpostazione"
 
@@ -10777,20 +10767,16 @@ msgstr ""
 "immagini che corrispondono a questi criteri:"
 
 #: ../src/gui/presets.c:508
-#, fuzzy
 msgid "only show this preset for matching images"
-msgstr ""
-"Mostra solo questo preset per le immagini\n"
-"che corrispondono a questi criteri:"
+msgstr "Mostra solo questa preimpostazione per le immagini corrispondenti"
 
 #: ../src/gui/presets.c:509
-#, fuzzy
 msgid ""
 "be very careful with this option. this might be the last time you see your "
 "preset."
 msgstr ""
-"Attento con questa opzione. Potrebbe essere l'ultima volta che vedi il tuo "
-"preset."
+"Fai molta attenzione con questa opzione. Potrebbe essere l'ultima volta che "
+"vedi la tua preimpostazione."
 
 #: ../src/gui/presets.c:534
 #, no-c-format
@@ -10866,9 +10852,8 @@ msgstr "Aggiorno la preimpostazione?"
 
 #: ../src/gui/presets.c:1097 ../src/libs/modulegroups.c:3836
 #: ../src/libs/modulegroups.c:3845
-#, fuzzy
 msgid "manage module layouts"
-msgstr "gestione preset"
+msgstr "Gestisci la disposizione dei moduli"
 
 #: ../src/gui/presets.c:1105
 msgid "manage quick presets"
@@ -10887,24 +10872,20 @@ msgid "disabled: wrong module version"
 msgstr "Disabilitato: versione del modulo errata"
 
 #: ../src/gui/presets.c:1458 ../src/libs/lib.c:531
-#, fuzzy
 msgid "edit this preset.."
 msgstr "Modifica questa preimpostazione..."
 
 #: ../src/gui/presets.c:1462 ../src/libs/lib.c:535
-#, fuzzy
 msgid "delete this preset"
 msgstr "Elimina questa preimpostazione"
 
 #: ../src/gui/presets.c:1468 ../src/libs/lib.c:543
-#, fuzzy
 msgid "store new preset.."
-msgstr "Salva nuova preimpostazione..."
+msgstr "Salva la nuova preimpostazione..."
 
 #: ../src/gui/presets.c:1474 ../src/libs/lib.c:555
-#, fuzzy
 msgid "update preset"
-msgstr "Aggiorna preset"
+msgstr "Aggiorna la preimpostazione"
 
 #: ../src/gui/styles_dialog.c:208
 #, c-format
@@ -11092,9 +11073,8 @@ msgid "16 bit"
 msgstr "16 bit"
 
 #: ../src/imageio/format/exr.cc:475
-#, fuzzy
 msgid "32 bit"
-msgstr "16 bit"
+msgstr "32 bit"
 
 #: ../src/imageio/format/exr.cc:484 ../src/imageio/format/pdf.c:698
 #: ../src/imageio/format/png.c:544 ../src/imageio/format/tiff.c:817
@@ -11127,9 +11107,8 @@ msgid "PXR24"
 msgstr ""
 
 #: ../src/imageio/format/exr.cc:492
-#, fuzzy
 msgid "B44"
-msgstr "B"
+msgstr "B44"
 
 #: ../src/imageio/format/exr.cc:493
 msgid "B44A"
@@ -11727,11 +11706,8 @@ msgstr ""
 "Minimo di %d linee in ogni direzione rilevante"
 
 #: ../src/iop/ashift.c:3224
-#, fuzzy
 msgid "automatic correction failed, please correct manually"
-msgstr ""
-"Correzione automatica fallita, per favore effettuare la correzione "
-"manualmente"
+msgstr "Correzione automatica fallita, per favore correggi manualmente"
 
 #. if count > MAX_SAVED_LINES we alert that the next lines won't be saved in params
 #. but they still may be used for the current section (that's why we still allow them)
@@ -11774,9 +11750,8 @@ msgid "shear the image along one diagonal"
 msgstr "Taglia l'immagine lungo una diagonale"
 
 #: ../src/iop/ashift.c:5791 ../src/iop/clipping.c:2135
-#, fuzzy
 msgid "automatically crop to avoid black edges"
-msgstr "Ritaglia automaticamente per evitare bordi neri"
+msgstr "Ritaglia automaticamente per evitare margini neri"
 
 #: ../src/iop/ashift.c:5792
 msgid ""
@@ -19527,9 +19502,8 @@ msgid "WB"
 msgstr "Bilanc. del bianco"
 
 #: ../src/libs/collect.c:148
-#, fuzzy
 msgid "collections"
-msgstr "raccolte"
+msgstr "Raccolte"
 
 #: ../src/libs/collect.c:405
 msgid "search filmroll"
@@ -19657,29 +19631,25 @@ msgstr "Cambia in: eccetto"
 #. the differents categories
 #: ../src/libs/collect.c:2955 ../src/libs/filtering.c:843
 #: ../src/libs/filtering.c:925
-#, fuzzy
 msgid "files"
-msgstr "file"
+msgstr "File"
 
 #: ../src/libs/collect.c:2960 ../src/libs/export_metadata.c:310
 #: ../src/libs/filtering.c:848 ../src/libs/filtering.c:930
 #: ../src/libs/image.c:466 ../src/libs/image.c:576 ../src/libs/image.c:584
 #: ../src/libs/metadata.c:548 ../src/libs/metadata_view.c:1218
-#, fuzzy
 msgid "metadata"
-msgstr "metadati"
+msgstr "Metadati"
 
 #: ../src/libs/collect.c:2979 ../src/libs/filtering.c:869
 #: ../src/libs/filtering.c:951
-#, fuzzy
 msgid "times"
-msgstr "orari"
+msgstr "Orari"
 
 #: ../src/libs/collect.c:2987 ../src/libs/filtering.c:877
 #: ../src/libs/filtering.c:959
-#, fuzzy
 msgid "capture details"
-msgstr "dettagli di scatto"
+msgstr "Dettagli di scatto"
 
 #: ../src/libs/collect.c:2996 ../src/libs/filtering.c:886
 #: ../src/libs/filtering.c:968 ../src/libs/tools/darktable.c:65
@@ -19705,20 +19675,17 @@ msgid "preferences..."
 msgstr "Preferenze..."
 
 #: ../src/libs/collect.c:3132 ../src/libs/filtering.c:1386
-#, fuzzy
 msgid "AND"
-msgstr " E "
+msgstr "E"
 
 #: ../src/libs/collect.c:3137 ../src/libs/filtering.c:1391
-#, fuzzy
 msgid "OR"
-msgstr " O "
+msgstr "O"
 
 #. case DT_LIB_COLLECT_MODE_AND_NOT:
 #: ../src/libs/collect.c:3142 ../src/libs/filtering.c:1396
-#, fuzzy
 msgid "BUT NOT"
-msgstr " ma non "
+msgstr "MA NON"
 
 #: ../src/libs/collect.c:3314 ../src/libs/filtering.c:1976
 msgid "revert to a previous set of rules"
@@ -19945,7 +19912,6 @@ msgstr "Crea duplicato dell'immagine con la medesima coda di sviluppo"
 
 #. Export button
 #: ../src/libs/export.c:154 ../src/libs/export.c:1335
-#, fuzzy
 msgid "export"
 msgstr "Esporta"
 
@@ -19964,27 +19930,24 @@ msgid "in"
 msgstr "in"
 
 #: ../src/libs/export.c:1071
-#, fuzzy
 msgid "storage options"
-msgstr "opzioni di salvataggio"
+msgstr "Opzioni di salvataggio"
 
 #: ../src/libs/export.c:1075
 msgid "target storage"
 msgstr "Destinazione"
 
 #: ../src/libs/export.c:1097
-#, fuzzy
 msgid "format options"
-msgstr "opzioni formato"
+msgstr "Opzioni formato"
 
 #: ../src/libs/export.c:1101
 msgid "file format"
 msgstr "Formato file"
 
 #: ../src/libs/export.c:1118
-#, fuzzy
 msgid "global options"
-msgstr "impostazioni esportazione"
+msgstr "Opzioni globali"
 
 #: ../src/libs/export.c:1121
 msgid "set size"
@@ -20163,19 +20126,16 @@ msgid "edit metadata exportation"
 msgstr "Editor esportazione metadati"
 
 #: ../src/libs/export_metadata.c:302
-#, fuzzy
 msgid "general settings"
-msgstr "impostazioni generali"
+msgstr "Impostazioni generali"
 
 #: ../src/libs/export_metadata.c:307
-#, fuzzy
 msgid "EXIF data"
-msgstr "Dati Exif"
+msgstr "Dati EXIF"
 
 #: ../src/libs/export_metadata.c:308
-#, fuzzy
 msgid "export EXIF metadata"
-msgstr "Esporta metadati Exif"
+msgstr "Esporta i metadati EXIF"
 
 #: ../src/libs/export_metadata.c:311
 msgid "export dt xmp metadata (from metadata editor module)"
@@ -20233,13 +20193,12 @@ msgid "omit hierarchy"
 msgstr "Ometti gerarchia"
 
 #: ../src/libs/export_metadata.c:347
-#, fuzzy
 msgid ""
 "only the last part of the hierarchical tags is included. can be useful if "
 "categories are not used"
 msgstr ""
-"Solamente l'ultima parte delle etichette gerarchiche verrà inclusa. Utile "
-"nel caso in cui le categorie non vengano utilizzate"
+"È inclusa solamente l'ultima parte delle etichette gerarchiche. Utile "
+"nel caso in cui non sono utilizzate le categorie"
 
 #: ../src/libs/export_metadata.c:350
 msgid "hierarchical tags"
@@ -20262,9 +20221,8 @@ msgstr ""
 "del database o del file XMP)"
 
 #: ../src/libs/export_metadata.c:361
-#, fuzzy
 msgid "per metadata settings"
-msgstr "impostazioni metadati"
+msgstr "Impostazioni metadati"
 
 #: ../src/libs/export_metadata.c:374
 msgid "redefined tag"
@@ -20379,14 +20337,12 @@ msgid "this rule is disabled"
 msgstr ""
 
 #: ../src/libs/filtering.c:1157
-#, fuzzy
 msgid "and"
-msgstr " E "
+msgstr "e"
 
 #: ../src/libs/filtering.c:1158
-#, fuzzy
 msgid "or"
-msgstr " O "
+msgstr "o"
 
 #: ../src/libs/filtering.c:1159
 msgid "and not"
@@ -20397,9 +20353,8 @@ msgid "define how this rule should interact with the previous one"
 msgstr ""
 
 #: ../src/libs/filtering.c:1420
-#, fuzzy
 msgid " (off)"
-msgstr "Disabilitato"
+msgstr " (disabilitato)"
 
 #: ../src/libs/filtering.c:1643
 msgid "sort order"
@@ -20457,14 +20412,12 @@ msgid ""
 msgstr ""
 
 #: ../src/libs/filters/colors.c:140
-#, fuzzy
 msgid "Y"
-msgstr "Y0"
+msgstr "Y"
 
 #: ../src/libs/filters/colors.c:149
-#, fuzzy
 msgid "P"
-msgstr "720p"
+msgstr "P"
 
 #: ../src/libs/filters/colors.c:269
 msgid "color filter"
@@ -20690,9 +20643,8 @@ msgid "end time"
 msgstr "Tempo scaduto"
 
 #: ../src/libs/geotagging.c:833 ../src/libs/geotagging.c:1866
-#, fuzzy
 msgid "points"
-msgstr "punti"
+msgstr "Punti"
 
 #: ../src/libs/geotagging.c:834 ../src/libs/geotagging.c:1868
 #: ../src/libs/image.c:465
@@ -21440,7 +21392,6 @@ msgid "move focus point out (big steps)"
 msgstr "Sposta all'esterno il punto di messa a fuoco (a grandi passi)"
 
 #: ../src/libs/live_view.c:310
-#, fuzzy
 msgid "overlay"
 msgstr "Sovrapponi"
 
@@ -21501,7 +21452,6 @@ msgid "exclusion"
 msgstr "Esclusione"
 
 #: ../src/libs/live_view.c:350
-#, fuzzy
 msgctxt "blendmode"
 msgid "HSL hue"
 msgstr "Tonalità HSL"
@@ -21538,9 +21488,8 @@ msgid "find location"
 msgstr "Trova località"
 
 #: ../src/libs/map_locations.c:36
-#, fuzzy
 msgid "locations"
-msgstr "luoghi"
+msgstr "Luoghi"
 
 #: ../src/libs/map_locations.c:257
 msgid "new sub-location"
@@ -21692,9 +21641,8 @@ msgid "created shapes"
 msgstr "Forme create"
 
 #: ../src/libs/metadata.c:61
-#, fuzzy
 msgid "metadata editor"
-msgstr "editor metadati"
+msgstr "Editor metadati"
 
 #: ../src/libs/metadata.c:128 ../src/libs/metadata.c:401
 msgid "<leave unchanged>"
@@ -21802,7 +21750,6 @@ msgid "CC BY-NC-ND"
 msgstr "CC BY-NC-ND"
 
 #: ../src/libs/metadata.c:824
-#, fuzzy
 msgid "Creative Commons Attribution-NonCommercial-NoDerivs (CC BY-NC-ND)"
 msgstr ""
 "Attribuzione Creative Commons - Non commerciale - No opere derivate (CC-BY-"
@@ -21899,7 +21846,6 @@ msgid "marked for deletion"
 msgstr "Contrassegnata per l'eliminazione"
 
 #: ../src/libs/metadata_view.c:336
-#, fuzzy
 msgid "auto-applying presets applied"
 msgstr "Applicata preimpostazione auto-applicante"
 
@@ -21932,7 +21878,7 @@ msgid "<various values>"
 msgstr ""
 
 #: ../src/libs/metadata_view.c:644
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "double-click to jump to film roll\n"
 "%s"
@@ -21965,9 +21911,8 @@ msgid "jump to film roll"
 msgstr "Vai al rullino"
 
 #: ../src/libs/recentcollect.c:67
-#, fuzzy
 msgid "recently used collections"
-msgstr "raccolte usate recentemente"
+msgstr "Raccolte usate recentemente"
 
 #: ../src/libs/recentcollect.c:109
 msgid " and "
@@ -22190,20 +22135,18 @@ msgstr ""
 "dove o no sono attualmente attivati"
 
 #: ../src/libs/modulegroups.c:2794
-#, fuzzy
 msgid ""
 "the following modules are deprecated because they have internal design "
 "mistakes which can't be solved and alternative modules which solve them.\n"
 " they will be removed for new edits in the next release."
 msgstr ""
-"I seguenti moduli sono deprecati perché hanno degli errori interni di design "
+"I seguenti moduli sono deprecati perché hanno degli errori di design interno "
 "che non possono esser risolti e moduli alternativi che li risolvono.\n"
-"Saranno rimossi nelle nuove edizione della prossima versione."
+"Saranno rimossi nelle nuove edizioni della prossima versione."
 
 #: ../src/libs/modulegroups.c:2822
-#, fuzzy
 msgid "quick access panel"
-msgstr "pannello di accesso rapido"
+msgstr "Pannello di accesso rapido"
 
 #: ../src/libs/modulegroups.c:2832
 msgid "show only active modules"
@@ -22356,9 +22299,8 @@ msgid "auto-apply this preset"
 msgstr "Applica automaticamente questa preimpostazione"
 
 #: ../src/libs/modulegroups.c:3913
-#, fuzzy
 msgid "module groups"
-msgstr "gruppi di moduli"
+msgstr "Gruppi di moduli"
 
 #: ../src/libs/modulegroups.c:3930
 msgid ""
@@ -22368,9 +22310,8 @@ msgstr ""
 "Duplicalo se vuoi apportare delle modifiche"
 
 #: ../src/libs/navigation.c:62
-#, fuzzy
 msgid "navigation"
-msgstr "navigazione"
+msgstr "Navigazione"
 
 #: ../src/libs/navigation.c:134
 msgid "hide navigation thumbnail"
@@ -22679,9 +22620,8 @@ msgid "create"
 msgstr "Crea"
 
 #: ../src/libs/snapshots.c:81
-#, fuzzy
 msgid "snapshots"
-msgstr "istantanee"
+msgstr "Istantanee"
 
 #: ../src/libs/snapshots.c:111
 msgctxt "snapshot sign"
@@ -22753,7 +22693,6 @@ msgstr ""
 "doppio click per applicare"
 
 #: ../src/libs/styles.c:805 ../src/libs/styles.c:806
-#, fuzzy
 msgid "filter style names"
 msgstr "Filtra per nome stile"
 
@@ -22801,18 +22740,16 @@ msgstr ""
 "Modifica lo stile selezionato nella lista qui sopra alle immagini selezionate"
 
 #: ../src/libs/tagging.c:103
-#, fuzzy
 msgid "tagging"
-msgstr "etichettatura"
+msgstr "Etichettatura"
 
 #: ../src/libs/tagging.c:1251
 msgid "attach tag to all"
 msgstr "Allega etichetta a tutte le immagini"
 
 #: ../src/libs/tagging.c:1259 ../src/libs/tagging.c:2221
-#, fuzzy
 msgid "detach tag"
-msgstr "rimuovi etichetta"
+msgstr "Rimuovi etichetta"
 
 #: ../src/libs/tagging.c:1479
 msgid "delete tag?"
@@ -22869,9 +22806,8 @@ msgid "%d tags removed"
 msgstr "Rimosse %d etichette"
 
 #: ../src/libs/tagging.c:1648
-#, fuzzy
 msgid "create tag"
-msgstr "crea etichetta"
+msgstr "Crea etichetta"
 
 #: ../src/libs/tagging.c:1658 ../src/libs/tagging.c:1805
 msgid "name: "
@@ -22941,18 +22877,16 @@ msgid "tag %s created"
 msgstr "Etichetta %s creata"
 
 #: ../src/libs/tagging.c:2217
-#, fuzzy
 msgid "attach tag"
-msgstr "allegare etichetta"
+msgstr "Allega etichetta"
 
 #: ../src/libs/tagging.c:2230
 msgid "create tag..."
 msgstr "Crea etichetta..."
 
 #: ../src/libs/tagging.c:2236
-#, fuzzy
 msgid "delete tag"
-msgstr "elimina etichetta"
+msgstr "Elimina etichetta"
 
 #: ../src/libs/tagging.c:2243
 msgid "delete node"
@@ -23035,9 +22969,8 @@ msgid "attach tag to all selected images"
 msgstr "Allega etichetta alle immagini selezionate"
 
 #: ../src/libs/tagging.c:3115
-#, fuzzy
 msgid "detach"
-msgstr "Rimuovere"
+msgstr "Rimuovi"
 
 #: ../src/libs/tagging.c:3116
 msgid "detach tag from all selected images"
@@ -23151,9 +23084,9 @@ msgid "toggle color label of selected images"
 msgstr "Attiva etichetta colore alle immagini selezionate"
 
 #: ../src/libs/tools/darktable.c:285
-#, fuzzy, c-format
+#, c-format
 msgid "copyright (c) the authors 2009-%s"
-msgstr "Copyright (c) - gli autori 2009-%s"
+msgstr "Copyright (c) gli autori 2009-%s"
 
 #: ../src/libs/tools/darktable.c:289
 msgid "organize and develop images from digital cameras"
@@ -23168,14 +23101,18 @@ msgid "and..."
 msgstr "e..."
 
 #: ../src/libs/tools/darktable.c:308
-#, fuzzy
 msgid "translator-credits"
-msgstr "Mauro 'bartokk' Bartoccelli <bartokk@gmail.com>"
+msgstr ""
+"\"Matteo Mardegan <matteo@mardegan.org> (2019-2022)\n\""
+"\"Luca Cignoni <luca.cignoni@gmail.com> (2022)\n\""
+"\"Maurizio Paglia <mpaglia0@gmail.com> (2018-2022)\n\""
+"\"Nelle precedenti versioni:\n\""
+"\"Germano Massullo (2015-2017)\n\""
+"\"Mauro 'bartokk' Bartoccelli (2013-2014)\""
 
 #: ../src/libs/tools/filmstrip.c:45
-#, fuzzy
 msgid "filmstrip"
-msgstr "provini"
+msgstr "Provino"
 
 #: ../src/libs/tools/filter.c:41
 msgid "filter"
@@ -23476,7 +23413,6 @@ msgid "hinter"
 msgstr "Suggerimento"
 
 #: ../src/libs/tools/image_infos.c:40
-#, fuzzy
 msgid "image infos"
 msgstr "Info dell'immagine"
 
@@ -23569,9 +23505,8 @@ msgid "set star rating for selected images"
 msgstr ""
 
 #: ../src/libs/tools/timeline.c:102
-#, fuzzy
 msgid "timeline"
-msgstr "linea temporale"
+msgstr "Linea temporale"
 
 #: ../src/libs/tools/timeline.c:1433
 msgid "start selection"
@@ -23591,7 +23526,7 @@ msgstr "Modifica vista"
 
 #: ../src/lua/preferences.c:655 ../src/lua/preferences.c:670
 #: ../src/lua/preferences.c:694 ../src/lua/preferences.c:774
-#, fuzzy, c-format
+#, c-format
 msgid "double-click to reset to `%s'"
 msgstr "Doppio click per ripristinare a '%s'"
 
@@ -23600,7 +23535,7 @@ msgid "select file"
 msgstr "Seleziona file"
 
 #: ../src/lua/preferences.c:733
-#, fuzzy, c-format
+#, c-format
 msgid "double-click to reset to `%d'"
 msgstr "Doppio click per ripristinare a '%d'"
 
@@ -23656,10 +23591,10 @@ msgid "no image to open !"
 msgstr "Nessuna immagine da aprire!"
 
 #: ../src/views/darkroom.c:1306
-#, fuzzy
 msgid "no userdefined presets for favorite modules were found"
 msgstr ""
-"Non sono stati trovati preset definiti dall'utente per i moduli preferiti "
+"Non sono stati trovate preimpostazioni definiti dall'utente per i moduli"
+" preferiti"
 
 #: ../src/views/darkroom.c:1311
 #, c-format
@@ -23723,25 +23658,21 @@ msgid "color scheme"
 msgstr "Combinazione colori"
 
 #: ../src/views/darkroom.c:2317
-#, fuzzy
 msgctxt "solidcolor"
 msgid "red"
 msgstr "Rosso"
 
 #: ../src/views/darkroom.c:2318
-#, fuzzy
 msgctxt "solidcolor"
 msgid "green"
 msgstr "Verde"
 
 #: ../src/views/darkroom.c:2319
-#, fuzzy
 msgctxt "solidcolor"
 msgid "blue"
 msgstr "Blu"
 
 #: ../src/views/darkroom.c:2320
-#, fuzzy
 msgctxt "solidcolor"
 msgid "black"
 msgstr "Nero"
@@ -23888,9 +23819,8 @@ msgid "preview display profile"
 msgstr "Visualizza profilo schermo"
 
 #: ../src/views/darkroom.c:2476
-#, fuzzy
 msgid "histogram profile"
-msgstr "profilo istogramma"
+msgstr "Profilo istogramma"
 
 #: ../src/views/darkroom.c:2540 ../src/views/lighttable.c:1204
 #, c-format

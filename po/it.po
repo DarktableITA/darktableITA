@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 18:53+0200\n"
-"PO-Revision-Date: 2024-06-02 20:59+0200\n"
+"PO-Revision-Date: 2024-06-03 21:12+0200\n"
 "Last-Translator: Fabio Sirna <fabio@fabiosirna.com>\n"
 "Language-Team: Italian <kde-i18n-doc@kde.org>\n"
 "Language: it\n"
@@ -211,7 +211,7 @@ msgstr "Cartelle ricorsive trasversali quanto importi i rullini"
 
 #: ../build/bin/conf_gen.h:1005
 msgid "creator to be applied when importing"
-msgstr "Autore da assegnare al momento dell'importazione"
+msgstr "autore da assegnare al momento dell'importazione"
 
 #: ../build/bin/conf_gen.h:1012
 msgid "publisher to be applied when importing"
@@ -403,7 +403,7 @@ msgstr "Mostra OSD"
 
 #: ../build/bin/conf_gen.h:2007
 msgid "toggle the visibility of the map overlays"
-msgstr "Attiva o disattiva la visibilità della mappa sovrapposizioni"
+msgstr "attiva o disattiva la visibilità della mappa sovrapposizioni"
 
 #: ../build/bin/conf_gen.h:2013 ../src/libs/map_settings.c:119
 msgid "filtered images"
@@ -430,7 +430,7 @@ msgid ""
 "increase or decrease the spatial size of images groups on the map. can "
 "influence the calculation time"
 msgstr ""
-"Aumenta o diminuisci la dimensione spaziale dei gruppi immagini sulla mappa. "
+"aumenta o diminuisci la dimensione spaziale dei gruppi immagini sulla mappa. "
 "Può influenzare il tempo di calcolo"
 
 #: ../build/bin/conf_gen.h:2034
@@ -522,7 +522,7 @@ msgstr "lanczos3"
 #: ../build/bin/preferences_gen.h:7000
 msgctxt "preferences"
 msgid "auto"
-msgstr "Auto"
+msgstr "auto"
 
 #: ../build/bin/conf_gen.h:2763
 msgctxt "preferences"
@@ -769,7 +769,7 @@ msgstr "Colonne"
 #: ../build/bin/conf_gen.h:3578
 msgctxt "preferences"
 msgid "active"
-msgstr "Attivo"
+msgstr "attivo"
 
 #: ../build/bin/conf_gen.h:3579
 msgctxt "preferences"
@@ -1691,7 +1691,7 @@ msgstr "OpenCL"
 
 #: ../build/bin/preferences_gen.h:6132
 msgid "activate OpenCL support"
-msgstr "Attiva supporto OpenCL"
+msgstr "attiva supporto OpenCL"
 
 #: ../build/bin/preferences_gen.h:6145
 msgid ""
@@ -2811,7 +2811,7 @@ msgstr "Base"
 #: ../src/iop/ashift.c:6189 ../src/iop/basicadj.c:662 ../src/iop/flip.c:459
 #: ../src/iop/flip.c:461 ../src/iop/levels.c:655 ../src/iop/rgblevels.c:1106
 msgid "auto"
-msgstr "Auto"
+msgstr "auto"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:348
 #: ../src/imageio/format/pdf.c:604 ../src/libs/filtering.c:317
@@ -4122,7 +4122,7 @@ msgstr "Manuale"
 #: ../build/lib/darktable/plugins/introspection_exposure.c:169
 #: ../build/lib/darktable/plugins/introspection_levels.c:161
 msgid "automatic"
-msgstr "Automatico"
+msgstr "automatico"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:212
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:423
@@ -4530,7 +4530,7 @@ msgstr "Base segmenti lunghi"
 #: ../build/lib/darktable/plugins/introspection_highpass.c:44
 #: ../build/lib/darktable/plugins/introspection_highpass.c:91
 msgid "contrast boost"
-msgstr "Aumento contrasto"
+msgstr "aumenta contrasto"
 
 #: ../build/lib/darktable/plugins/introspection_hotpixels.c:59
 #: ../build/lib/darktable/plugins/introspection_hotpixels.c:116
@@ -6185,7 +6185,7 @@ msgstr "Blu marino"
 
 #: ../src/common/color_vocabulary.c:306 ../src/common/color_vocabulary.c:316
 msgid "deep sky blue"
-msgstr "Azzurro intenso"
+msgstr "azzurro intenso"
 
 #: ../src/common/color_vocabulary.c:307
 msgid "aquamarine blue"
@@ -6204,7 +6204,7 @@ msgstr "Blu medio"
 
 #: ../src/common/color_vocabulary.c:315
 msgid "azure blue"
-msgstr "Azzurro"
+msgstr "azzurro"
 
 #: ../src/common/color_vocabulary.c:325
 msgid "light sky blue"
@@ -6435,7 +6435,7 @@ msgstr "_mostra ancora quest'informazione"
 
 #: ../src/common/darktable.c:1682
 msgid "_dismiss"
-msgstr ""
+msgstr "_ignora"
 
 #: ../src/common/darktable.c:2136
 msgid ""
@@ -7117,7 +7117,7 @@ msgstr ""
 #. clang-format off
 #: ../src/common/metadata.c:46
 msgid "creator"
-msgstr "Autore"
+msgstr "autore"
 
 #: ../src/common/metadata.c:47
 msgid "publisher"
@@ -7534,7 +7534,7 @@ msgstr "D55"
 #. For Olympus with no real "Flash" preset:
 #: ../src/common/wb_presets.c:71
 msgid "flash (auto mode)"
-msgstr "Flash (Automatico)"
+msgstr "Flash (automatico)"
 
 #: ../src/common/wb_presets.c:72
 msgid "evening sun"
@@ -7905,7 +7905,9 @@ msgstr[1] "Rimuovo %d immagini"
 msgid "not removing image '%s' used as overlay in %d image"
 msgid_plural "not removing image '%s' used as overlay in %d images"
 msgstr[0] ""
+"non rimuove l'immagine '%s' usata come sovrapposizione nell'immagine %d"
 msgstr[1] ""
+"non rimuove l'immagine '%s' usata come sovrapposizione in %d immagini"
 
 #: ../src/control/jobs/control_jobs.c:955
 #, c-format
@@ -7978,7 +7980,9 @@ msgstr[1] "Elimino %d immagini"
 msgid "not deleting image '%s' used as overlay in %d image"
 msgid_plural "not deleting image '%s' used as overlay in %d images"
 msgstr[0] ""
+"non eliminare l'immagine '%s' usata come sovrapposizione nell'immagine %d"
 msgstr[1] ""
+"non eliminare l'immagine '%s' usata come sovrapposizione in %d immagini"
 
 #: ../src/control/jobs/control_jobs.c:1301
 msgid "failed to parse GPX file"
@@ -8607,7 +8611,7 @@ msgstr "Ripristina lo spazio colore predefinito per la fusione"
 
 #: ../src/develop/blend_gui.c:2097
 msgid "reset and hide output channels"
-msgstr "Azzera e nascondi i canali di uscita"
+msgstr "azzera e nascondi i canali di uscita"
 
 #: ../src/develop/blend_gui.c:2104
 msgid "show output channels"
@@ -9256,7 +9260,7 @@ msgid ""
 "reset parameters\n"
 "ctrl+click to reapply any automatic presets"
 msgstr ""
-"Azzera i parametri\n"
+"azzera i parametri\n"
 "Ctrl+click per applicare di nuovo qualsiasi preimpostazione automatica"
 
 #: ../src/develop/imageop.c:2970
@@ -9264,7 +9268,7 @@ msgid ""
 "multiple instance actions\n"
 "right-click creates new instance"
 msgstr ""
-"Azioni con istanze multiple\n"
+"azioni con istanze multiple\n"
 "click col tasto destro del mouse crea una nuova istanza"
 
 #: ../src/develop/imageop.c:2974
@@ -9621,7 +9625,7 @@ msgstr "[PATH on node] Rimuovi il nodo"
 
 #: ../src/develop/masks/path.c:3314
 msgid "[PATH on feather] reset curvature"
-msgstr "[PATH on feather] Azzera la curvatura"
+msgstr "[PATH on feather] azzera la curvatura"
 
 #: ../src/develop/masks/path.c:3316
 msgid "[PATH on segment] add node"
@@ -10000,10 +10004,12 @@ msgstr "o aggiungi le immagini nel modulo raccolte nel pannello sinistro"
 #: ../src/dtgtk/thumbtable.c:1212
 msgid "try the 'no-click' workflow: hover on an image and use"
 msgstr ""
+"prova il flusso di lavoro “senza clic”: passate il mouse su un'immagine e "
+"utilizzate"
 
 #: ../src/dtgtk/thumbtable.c:1218
 msgid "keyboard shortcuts to apply ratings, colors, styles, etc."
-msgstr ""
+msgstr "scorciatoie da tastiera per applicare valutazioni, colori, stili, ecc."
 
 #: ../src/dtgtk/thumbtable.c:1497
 msgid ""
@@ -10341,7 +10347,7 @@ msgstr "A destra"
 
 #: ../src/gui/accelerators.c:167 ../src/gui/gtk.c:3475
 msgid "activate"
-msgstr "Attiva"
+msgstr "attiva"
 
 #: ../src/gui/accelerators.c:168
 msgid "ctrl-activate"
@@ -10854,7 +10860,7 @@ msgstr "Tipo"
 
 #: ../src/gui/accelerators.c:2993
 msgid "enable fallbacks"
-msgstr "Attiva alternative"
+msgstr "attiva alternative"
 
 #: ../src/gui/accelerators.c:2994
 msgid ""
@@ -11114,7 +11120,7 @@ msgstr "Tutto in basso"
 
 #: ../src/gui/gtk.c:1419
 msgid "toggle tooltip visibility"
-msgstr "Attiva visibilità suggerimenti"
+msgstr "attiva visibilità suggerimenti"
 
 #: ../src/gui/gtk.c:1422
 msgid "reinitialise input devices"
@@ -11122,7 +11128,7 @@ msgstr "Reinizializza i dispositivi di input"
 
 #: ../src/gui/gtk.c:1471
 msgid "toggle focus-peaking mode"
-msgstr "Attiva modalità focus-peaking"
+msgstr "attiva modalità focus-peaking"
 
 #: ../src/gui/gtk.c:1478
 msgid "toggle focus peaking"
@@ -11208,6 +11214,7 @@ msgstr "$(JOBCODE) - coda di lavoro per importazione"
 msgid ""
 "$(SEQUENCE[n,m]) - sequence number, n: number of digits, m: start number"
 msgstr ""
+"$(SEQUENCE[n,m]) - numero di sequenza, n: numero di cifre, m: numero iniziale"
 
 #: ../src/gui/gtkentry.c:182
 msgid "$(WIDTH.MAX) - maximum image export width"
@@ -11752,7 +11759,7 @@ msgid ""
 msgstr ""
 "Regola la risoluzione globale dell'interfaccia per ridimensionare i "
 "controlli, i pulsanti, le etichette, ecc.\n"
-"Aumentare il valore per ingrandire l'interfaccia, diminuire per includere un "
+"aumentare il valore per ingrandire l'interfaccia, diminuire per includere un "
 "maggior contenuto nello schermo.\n"
 "Impostare a -1 per usare la risoluzione definita dal sistema.\n"
 "Il valore predefinito è 96 DPI sulla maggior parte dei sistemi.\n"
@@ -12903,7 +12910,7 @@ msgstr "Inserisci il titolo del libro"
 
 #: ../src/imageio/storage/piwigo.c:532
 msgid "authenticated"
-msgstr "Autenticato"
+msgstr "autenticato"
 
 #: ../src/imageio/storage/piwigo.c:543 ../src/imageio/storage/piwigo.c:559
 #: ../src/imageio/storage/piwigo.c:572
@@ -13099,6 +13106,8 @@ msgid ""
 "module '%s' has insane data so it is bypassed for now. you should disable it "
 "or change parameters\n"
 msgstr ""
+"il modulo '%s' ha dati non validi, quindi per ora viene bypassato. è "
+"necessario disabilitarlo o modificare i parametri\n"
 
 #: ../src/iop/ashift.c:2824
 msgid "automatic cropping failed"
@@ -14200,7 +14209,7 @@ msgstr "Iterazioni di esecuzione, in modo predefinito è due volte"
 
 #: ../src/iop/cacorrect.c:1313
 msgid "activate colorshift correction for blue & red channels"
-msgstr "Attiva la correzione dello spostamento colore per i canali blu e rosso"
+msgstr "attiva la correzione dello spostamento colore per i canali blu e rosso"
 
 #: ../src/iop/cacorrect.c:1320
 msgid ""
@@ -14236,7 +14245,7 @@ msgstr ""
 
 #: ../src/iop/cacorrectrgb.c:729
 msgid "increase for stronger correction"
-msgstr "Aumenta per una correzione più forte"
+msgstr "aumenta per una correzione più forte"
 
 #: ../src/iop/cacorrectrgb.c:731
 msgid ""
@@ -14381,15 +14390,15 @@ msgstr "Scambia verde e blu"
 
 #: ../src/iop/channelmixer.c:670
 msgid "color contrast boost"
-msgstr "Aumento contrasto del colore"
+msgstr "aumenta contrasto del colore"
 
 #: ../src/iop/channelmixer.c:676
 msgid "color details boost"
-msgstr "Aumento dettagli del colore"
+msgstr "aumenta dettagli del colore"
 
 #: ../src/iop/channelmixer.c:682
 msgid "color artifacts boost"
-msgstr "Aumento artefatti del colore"
+msgstr "aumenta artefatti del colore"
 
 #: ../src/iop/channelmixer.c:688
 msgid "B/W luminance-based"
@@ -15309,7 +15318,7 @@ msgstr "<b>Sposta il punto di controllo</b>: trascina"
 #: ../src/iop/clipping.c:3079
 msgid "<b>move line</b>: drag, <b>toggle symmetry</b>: click ꝏ"
 msgstr ""
-"<b>Muovi la linea</b>: trascina, <b>Attiva/disattiva la simmetria</b>: "
+"<b>Muovi la linea</b>: trascina, <b>attiva/disattiva la simmetria</b>: "
 "clicca <tt>ꝏ</tt>"
 
 #: ../src/iop/clipping.c:3084
@@ -15317,7 +15326,7 @@ msgid ""
 "<b>apply</b>: click <tt>ok</tt>, <b>toggle symmetry</b>: click ꝏ\n"
 "<b>move line/control point</b>: drag"
 msgstr ""
-"<b>Applica</b>: clicca <tt>ok</tt>, <b>Attiva/disattiva simmetria</b>: "
+"<b>Applica</b>: clicca <tt>ok</tt>, <b>attiva/disattiva simmetria</b>: "
 "clicca ꝏ\n"
 "<b>Muovi la linea/il punto di controllo</b>: trascina"
 
@@ -15367,7 +15376,7 @@ msgstr "bilanciamento colore"
 #: ../src/iop/colorbalance.c:157
 msgid "lift gamma gain|cdl|color grading|contrast|saturation|hue"
 msgstr ""
-"Aumenta guadagno gamma|cdl|gradiente colore|contrasto|saturazione|tonalità"
+"aumenta guadagno gamma|cdl|gradiente colore|contrasto|saturazione|tonalità"
 
 #: ../src/iop/colorbalance.c:162
 msgid "shift colors selectively by luminance range"
@@ -15640,11 +15649,11 @@ msgstr "Ruota tutte le tonalità con un angolo, a parità di luminanza"
 
 #: ../src/iop/colorbalancergb.c:1928
 msgid "increase colorfulness mostly on low-chroma colors"
-msgstr "Aumenta la colorazione soprattutto sui colori a bassa cromaticità"
+msgstr "aumenta la colorazione soprattutto sui colori a bassa cromaticità"
 
 #: ../src/iop/colorbalancergb.c:1934
 msgid "increase the contrast at constant chromaticity"
-msgstr "Aumenta il contrasto con cromaticità costante"
+msgstr "aumenta il contrasto con cromaticità costante"
 
 #: ../src/iop/colorbalancergb.c:1936
 msgctxt "section"
@@ -15653,20 +15662,20 @@ msgstr "Gradiente di cromaticità lineare"
 
 #: ../src/iop/colorbalancergb.c:1943
 msgid "increase colorfulness at same luminance globally"
-msgstr "Aumenta la colorazione alla stessa luminanza globale"
+msgstr "aumenta la colorazione alla stessa luminanza globale"
 
 #: ../src/iop/colorbalancergb.c:1948
 msgid "increase colorfulness at same luminance mostly in shadows"
-msgstr "Aumenta la colorazione alla stessa luminanza soprattutto sulle ombre"
+msgstr "aumenta la colorazione alla stessa luminanza soprattutto sulle ombre"
 
 #: ../src/iop/colorbalancergb.c:1953
 msgid "increase colorfulness at same luminance mostly in mid-tones"
-msgstr "Aumenta la colorazione alla stessa luminanza soprattutto nei toni medi"
+msgstr "aumenta la colorazione alla stessa luminanza soprattutto nei toni medi"
 
 #: ../src/iop/colorbalancergb.c:1958
 msgid "increase colorfulness at same luminance mostly in highlights"
 msgstr ""
-"Aumenta la colorazione alla stessa luminanza soprattutto alle alte luci"
+"aumenta la colorazione alla stessa luminanza soprattutto alle alte luci"
 
 #: ../src/iop/colorbalancergb.c:1960
 msgctxt "section"
@@ -15683,7 +15692,7 @@ msgid ""
 "increase or decrease saturation proportionally to the original pixel "
 "saturation"
 msgstr ""
-"Aumenta o riduci la saturazione proporzionalmente alla saturazione originale "
+"aumenta o riduci la saturazione proporzionalmente alla saturazione originale "
 "dei pixel"
 
 #: ../src/iop/colorbalancergb.c:1983
@@ -15705,7 +15714,7 @@ msgid ""
 "increase or decrease brilliance proportionally to the original pixel "
 "brilliance"
 msgstr ""
-"Aumenta o riduci la brillantezza proporzionalmente a quella originale dei "
+"aumenta o riduci la brillantezza proporzionalmente a quella originale dei "
 "pixel"
 
 #. Page 4-ways
@@ -15737,7 +15746,7 @@ msgstr "Cromaticità della compensazione globale del colore"
 #: ../src/iop/colorbalancergb.c:2029
 msgctxt "section"
 msgid "shadows lift"
-msgstr "Aumento ombre"
+msgstr "aumenta ombre"
 
 #: ../src/iop/colorbalancergb.c:2030
 msgid "lift"
@@ -16026,7 +16035,7 @@ msgid ""
 "increase saturation and separation between\n"
 "opposite colors"
 msgstr ""
-"Aumenta la saturazione e la separazione\n"
+"aumenta la saturazione e la separazione\n"
 "tra colori opposti"
 
 #: ../src/iop/colorcontrast.c:320
@@ -16404,6 +16413,7 @@ msgstr "zone colore"
 #: ../src/iop/colorequal.c:194
 msgid "change saturation, hue and brightness depending on local hue"
 msgstr ""
+"modificare la saturazione, la tinta e la luminosità in base alla tinta locale"
 
 #: ../src/iop/colorequal.c:197 ../src/iop/toneequal.c:334
 msgid "quasi-linear, RGB"
@@ -16451,7 +16461,7 @@ msgstr ""
 
 #: ../src/iop/colorequal.c:2557
 msgid "shift nodes to lower or higher hue"
-msgstr ""
+msgstr "spostare i nodi su una tonalità più bassa o più alta"
 
 #: ../src/iop/colorequal.c:2560
 #, fuzzy
@@ -16467,7 +16477,7 @@ msgstr ""
 
 #: ../src/iop/colorequal.c:2582
 msgid "change hue hue-wise"
-msgstr ""
+msgstr "cambiare la tonalità in base alla tinta"
 
 #: ../src/iop/colorequal.c:2600
 #, fuzzy
@@ -16487,20 +16497,29 @@ msgid ""
 "corrections\n"
 "to stay below the defined level. the default is fine for most images."
 msgstr ""
+"il livello di bianco impostato manualmente o tramite il picker limita le "
+"correzioni di luminosità\n"
+"per rimanere al di sotto del livello definito. il valore predefinito va bene "
+"per la maggior parte delle immagini."
 
 #: ../src/iop/colorequal.c:2656
 msgid "change for sharper or softer hue curve"
-msgstr ""
+msgstr "modifica per una curva di tonalità più nitida o più morbida"
 
 #: ../src/iop/colorequal.c:2660
 msgid "restrict effect by using a guided filter based on hue and saturation"
 msgstr ""
+"limita l'effetto utilizzando un filtro guidato basato su tonalità e "
+"saturazione"
 
 #: ../src/iop/colorequal.c:2666
 msgid ""
 "set radius of the guided filter chroma analysis (hue).\n"
 "increase if there is large local variance of hue or strong chroma noise."
 msgstr ""
+"imposta il raggio del filtro guidato analisi cromatica (tinta).\n"
+"aumenta in presenza di un'ampia varianza locale della tinta o di un forte "
+"rumore cromatico."
 
 #: ../src/iop/colorequal.c:2677
 msgid ""
@@ -16961,7 +16980,7 @@ msgid ""
 "weight slider."
 msgstr ""
 "Raggio dei campioni da confrontare.\n"
-"Aumenta per maggior nitidezza sui margini netti, e miglior riduzione del "
+"aumenta per maggior nitidezza sui margini netti, e miglior riduzione del "
 "rumore nelle aree uniformi.\n"
 "Se i dettagli dovessero risultare troppo ammorbiditi, riduci questo valore "
 "oppure aumenta il selettore scorrevole del peso del pixel centrale."
@@ -16972,7 +16991,7 @@ msgid ""
 "increase for better denoising performance, but watch the long runtimes! "
 "large radii can be very slow. you have been warned"
 msgstr ""
-"Solo per emergenze: raggio di prossimità dove cercare i campioni. Aumentare "
+"Solo per emergenze: raggio di prossimità dove cercare i campioni. aumentare "
 "per prestazioni migliori nella riduzione del rumore, ma fai attenzione "
 "all'aumento dei tempi di calcolo! Raggi ampi possono rallentare parecchio il "
 "calcolo. Siete stati avvisati!"
@@ -16984,7 +17003,7 @@ msgid ""
 "does not affect execution time."
 msgstr ""
 "Diffusione dei dintorni per la ricerca di campioni.\n"
-"Aumentalo per una migliore riduzione del rumore a grana grossa.\n"
+"aumentalo per una migliore riduzione del rumore a grana grossa.\n"
 "Nessuna controindicazione per il tempo di esecuzione."
 
 #: ../src/iop/denoiseprofile.c:3858
@@ -16994,7 +17013,7 @@ msgid ""
 "useful to recover details when patch size\n"
 "is quite big."
 msgstr ""
-"Aumenta l'importanza del pixel centrale\n"
+"aumenta l'importanza del pixel centrale\n"
 "del campione quando si confrontano i campioni.\n"
 "Utile per recuperare i dettagli quando la\n"
 "dimensione del campione è piuttosto grande."
@@ -17011,7 +17030,7 @@ msgid ""
 "this can happen if your picture is underexposed."
 msgstr ""
 "Controlla come vengono auto-regolati i parametri\n"
-"Aumenta se le ombre non vengono sufficientemente ripulite dal rumore\n"
+"aumenta se le ombre non vengono sufficientemente ripulite dal rumore\n"
 "oppure se rimane del rumore di cromaticità.\n"
 "Questo può accadere anche se l'immagine è sottoesposta."
 
@@ -17033,7 +17052,7 @@ msgid ""
 msgstr ""
 "Corregge le dominanti di colore nelle ombre.\n"
 "Diminuisci il valore se le ombre diventano viola.\n"
-"Aumentalo se diventano verdi."
+"aumentalo se diventano verdi."
 
 #: ../src/iop/denoiseprofile.c:3877
 msgid ""
@@ -17184,7 +17203,7 @@ msgstr ""
 "Diverso da zero definisce la dimensione dei dettagli da diffondere "
 "pesantemente.\n"
 "Per aumentare nitidezza e riduzione rumore, imposta a zero.\n"
-"Aumenta invece per lavorare sul contrasto locale."
+"aumenta invece per lavorare sul contrasto locale."
 
 #: ../src/iop/diffuse.c:1804
 msgid ""
@@ -17341,7 +17360,7 @@ msgid ""
 "can be used to keep details after blooming,\n"
 "for standalone sharpening set speed to negative values."
 msgstr ""
-"Aumenta o diminuisce la nitidezza delle frequenze più alte.\n"
+"aumenta o diminuisce la nitidezza delle frequenze più alte.\n"
 "Può essere utilizzato per mantenere i dettagli dopo un effetto di soft-"
 "focus\n"
 "Per aumentare solamente la nitidezza impostare la velocità a valori negativi"
@@ -17353,7 +17372,7 @@ msgid ""
 "if fringes or halos appear."
 msgstr ""
 "Definisce la sensibilità della penalità di varianza per i margini.\n"
-"Aumenta per escludere più margini dalla diffusione,\n"
+"aumenta per escludere più margini dalla diffusione,\n"
 "se appaiono frange o aloni."
 
 #: ../src/iop/diffuse.c:1917
@@ -17692,7 +17711,7 @@ msgid ""
 msgstr ""
 "Numero di stop tra il grigio medio ed il nero puro.\n"
 "Questa è la lettura che darebbe un esposimetro sulla scena.\n"
-"Aumenta per ottenere maggior contrasto.\n"
+"aumenta per ottenere maggior contrasto.\n"
 "Diminuisci per recuperare dettagli nelle luci basse."
 
 #: ../src/iop/filmic.c:1542
@@ -17747,7 +17766,7 @@ msgid ""
 "this has no effect on mid-tones."
 msgstr ""
 "Ampiezza del dominio lineare nel mezzo della curva.\n"
-"Aumenta questo valore per avere più contrasto a luminanze estreme.\n"
+"aumenta questo valore per avere più contrasto a luminanze estreme.\n"
 "Non ha alcun effetto sui mezzitoni."
 
 #: ../src/iop/filmic.c:1580
@@ -18071,7 +18090,7 @@ msgstr ""
 "Ammorbidisce il passaggio tra le aree totalmente sovraesposte\n"
 "e quelle con pixel validi.\n"
 "Diminuire il valore per ottenere una transizione più netta.\n"
-"Aumentarlo per ottenere una transizione più dolce."
+"aumentarlo per ottenere una transizione più dolce."
 
 #: ../src/iop/filmicrgb.c:4469 ../src/iop/filmicrgb.c:4470
 msgid "display highlight reconstruction mask"
@@ -18284,7 +18303,7 @@ msgid ""
 msgstr ""
 "Desatura l'immagine in uscita dal modulo\n"
 "soprattutto alle luminanze medie.\n"
-"Aumenta se i mezzi toni sono sotto-saturati."
+"aumenta se i mezzi toni sono sotto-saturati."
 
 #: ../src/iop/filmicrgb.c:4709
 msgid "highlights saturation mix"
@@ -18663,7 +18682,7 @@ msgid ""
 "increase if magenta highlights don't get fully corrected\n"
 "each new iteration brings a performance penalty."
 msgstr ""
-"Aumenta se le alte luci magenta non vengono corrette del tutto\n"
+"aumenta se le alte luci magenta non vengono corrette del tutto\n"
 "Ogni nuova iterazione rallenta il calcolo."
 
 #: ../src/iop/highlights.c:1223
@@ -18671,7 +18690,7 @@ msgid ""
 "increase if magenta highlights don't get fully corrected.\n"
 "this may produce non-smooth boundaries between valid and clipped regions."
 msgstr ""
-"Aumenta se le alte luci magenta non vengono corrette del tutto.\n"
+"aumenta se le alte luci magenta non vengono corrette del tutto.\n"
 "Questo potrebbe portare a bordi molto visibili tra le aree originali e "
 "quelle tagliate."
 
@@ -18680,7 +18699,7 @@ msgid ""
 "increase to correct larger clipped areas.\n"
 "large values bring huge performance penalties"
 msgstr ""
-"Aumenta per correggere le aree tagliate più ampie.\n"
+"aumenta per correggere le aree tagliate più ampie.\n"
 "Valori alti rallentano di molto il calcolo"
 
 #: ../src/iop/highlights.c:1231
@@ -20226,7 +20245,7 @@ msgstr "Strumenti"
 
 #: ../src/iop/retouch.c:2488 ../src/iop/retouch.c:2514
 msgid "activate blur tool"
-msgstr "Attiva strumento sfocatura"
+msgstr "attiva strumento sfocatura"
 
 #: ../src/iop/retouch.c:2489 ../src/iop/retouch.c:2495
 #: ../src/iop/retouch.c:2501 ../src/iop/retouch.c:2507
@@ -20235,15 +20254,15 @@ msgstr "Cambia l'algoritmo per la forma attuale"
 
 #: ../src/iop/retouch.c:2494 ../src/iop/retouch.c:2517
 msgid "activate fill tool"
-msgstr "Attiva strumento riempimento"
+msgstr "attiva strumento riempimento"
 
 #: ../src/iop/retouch.c:2500 ../src/iop/retouch.c:2520
 msgid "activate cloning tool"
-msgstr "Attiva strumento clona"
+msgstr "attiva strumento clona"
 
 #: ../src/iop/retouch.c:2506 ../src/iop/retouch.c:2523
 msgid "activate healing tool"
-msgstr "Attiva strumento cerotto"
+msgstr "attiva strumento cerotto"
 
 #. overwrite tooltip ourself to handle shift+click
 #: ../src/iop/retouch.c:2512
@@ -21058,7 +21077,7 @@ msgid ""
 msgstr ""
 "Se impostato ad automatico, le curve a e b non avranno effetto e non saranno "
 "visualizzate. I valori cromatici (a e b) di ciascun pixel sono quindi "
-"regolati basandosi sui dati della curva L. Auto XYZ è simile ma applica i "
+"regolati basandosi sui dati della curva L. auto XYZ è simile ma applica i "
 "cambiamenti di saturazione nello spazio XYZ."
 
 #: ../src/iop/tonecurve.c:1284
@@ -21651,10 +21670,10 @@ msgid ""
 "left-click on a border to create a marker\n"
 "right-click on a marker to delete it"
 msgstr ""
-"Zone di chiarezza\n"
-"Usa la rotella del mouse per cambiare il numero di zone.\n"
-"Tasto sinistro su un bordo per creare un marcatore\n"
-"Tasto destro sul marcatore per eliminarlo"
+"zone di chiarezza\n"
+"usa la rotella del mouse per cambiare il numero di zone.\n"
+"tasto sinistro su un bordo per creare un marcatore\n"
+"tasto destro sul marcatore per eliminarlo"
 
 #: ../src/libs/backgroundjobs.c:52
 msgid "background jobs"
@@ -22049,7 +22068,7 @@ msgid ""
 "turn on color picker\n"
 "ctrl+click or right-click to select an area"
 msgstr ""
-"Attiva il selettore colore\n"
+"attiva il selettore colore\n"
 "Ctrl+click o click destro per selezionare un'area"
 
 #: ../src/libs/colorpicker.c:722
@@ -22722,11 +22741,11 @@ msgstr "Nuovo filtro"
 #. the actions part of the popover
 #: ../src/libs/filtering.c:1795
 msgid "actions"
-msgstr "Azioni"
+msgstr "azioni"
 
 #: ../src/libs/filtering.c:1798
 msgid "reset quickfilters"
-msgstr "Azzera i filtri veloci"
+msgstr "azzera i filtri veloci"
 
 #: ../src/libs/filtering.c:1971
 msgid "sort order"
@@ -22787,7 +22806,7 @@ msgid ""
 "reset\n"
 "ctrl+click to remove pinned rules too"
 msgstr ""
-"Azzera\n"
+"azzera\n"
 "ctrl-click per rimuovere anche le regole bloccate"
 
 #: ../src/libs/filters/colors.c:140
@@ -23412,7 +23431,7 @@ msgstr ""
 
 #: ../src/libs/image.c:74
 msgid "actions on selection"
-msgstr "Azioni sulla selezione"
+msgstr "azioni sulla selezione"
 
 #: ../src/libs/image.c:304
 msgid "delete (trash)"
@@ -24142,7 +24161,7 @@ msgstr "Privato"
 msgid ""
 "tick if you want to keep this information private (not exported with images)"
 msgstr ""
-"Attiva il flag se vuoi mantenere private queste informazioni (non verranno "
+"attiva il flag se vuoi mantenere private queste informazioni (non verranno "
 "esportate con le immagini)"
 
 #: ../src/libs/metadata.c:691
@@ -24893,7 +24912,7 @@ msgstr "Compens. punto di nero"
 #: ../src/libs/print_settings.c:2514
 msgid "activate black point compensation when applying the printer profile"
 msgstr ""
-"Attiva la compens. del punto di nero quando viene applicato il profilo "
+"attiva la compens. del punto di nero quando viene applicato il profilo "
 "stampante"
 
 #. //////////////////////// PAGE SETTINGS
@@ -25514,7 +25533,7 @@ msgstr "Ordina"
 
 #: ../src/libs/tagging.c:3198
 msgid "toggle show or not darktable tags"
-msgstr "Attiva o disattiva la visualizzazione dei Tag di darktable"
+msgstr "attiva o disattiva la visualizzazione dei Tag di darktable"
 
 #: ../src/libs/tagging.c:3198
 msgid "dttags"
@@ -25580,7 +25599,7 @@ msgstr "Albero"
 
 #: ../src/libs/tagging.c:3325
 msgid "toggle list with / without suggestion"
-msgstr "Attiva la lista con o senza suggerimento"
+msgstr "attiva la lista con o senza suggerimento"
 
 #: ../src/libs/tagging.c:3325
 msgid "suggestion"
@@ -25616,17 +25635,17 @@ msgstr "Etichette colore"
 msgid ""
 "toggle color label of selected images\n"
 "<i>%s</i>"
-msgstr "Attiva etichetta colore alle immagini selezionate"
+msgstr "attiva etichetta colore alle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:107
 msgid "toggle color label of selected images"
-msgstr "Attiva etichetta colore alle immagini selezionate"
+msgstr "attiva etichetta colore alle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:134
 #, fuzzy
 #| msgid "toggle color label of selected images"
 msgid "clear color labels of selected images"
-msgstr "Attiva etichetta colore alle immagini selezionate"
+msgstr "attiva etichetta colore alle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:245
 #, fuzzy
@@ -25901,7 +25920,7 @@ msgstr "Aiuto"
 #: ../src/libs/tools/global_toolbox.c:489
 msgid "enable this, then click on a control element to see its online help"
 msgstr ""
-"Attiva questo pulsante, quindi fai click sul controllo di un elemento per "
+"attiva questo pulsante, quindi fai click sul controllo di un elemento per "
 "visualizzare l'aiuto in linea"
 
 #: ../src/libs/tools/global_toolbox.c:496
@@ -25977,7 +25996,7 @@ msgstr "Click per entrare nel layout gestione file."
 
 #: ../src/libs/tools/lighttable.c:374
 msgid "toggle zoomable lighttable layout"
-msgstr "Attiva il layout ingrandibile del Tavolo Luminoso"
+msgstr "attiva il layout ingrandibile del Tavolo Luminoso"
 
 #: ../src/libs/tools/lighttable.c:377
 msgid "click to enter zoomable lighttable layout."
@@ -25985,15 +26004,15 @@ msgstr "Clicca per entrare nel layout ingrandibile del Tavolo Luminoso."
 
 #: ../src/libs/tools/lighttable.c:383
 msgid "toggle culling mode"
-msgstr "Attiva la modalità selezione"
+msgstr "attiva la modalità selezione"
 
 #: ../src/libs/tools/lighttable.c:391
 msgid "toggle culling dynamic mode"
-msgstr "Attiva la modalità selezione dinamica"
+msgstr "attiva la modalità selezione dinamica"
 
 #: ../src/libs/tools/lighttable.c:438
 msgid "toggle culling zoom mode"
-msgstr "Attiva la modalità selezione con ingrandimento"
+msgstr "attiva la modalità selezione con ingrandimento"
 
 #: ../src/libs/tools/lighttable.c:440
 msgid "exit current layout"
@@ -26169,6 +26188,8 @@ msgid ""
 "toggle high quality processing, if activated darktable processes image data "
 "as it does while exporting"
 msgstr ""
+"attiva l'elaborazione ad alta qualità; se attivata, darktable elabora i dati "
+"dell'immagine come durante l'esportazione."
 
 #: ../src/views/darkroom.c:2284
 #, fuzzy
@@ -26179,7 +26200,7 @@ msgid ""
 "toggle indication of raw overexposure\n"
 "right click for options"
 msgstr ""
-"Attiva l'indicatore di sovraesposizione RAW\n"
+"attiva l'indicatore di sovraesposizione RAW\n"
 "click destro per ulteriori opzioni"
 
 #: ../src/views/darkroom.c:2300
@@ -26249,7 +26270,7 @@ msgid ""
 "toggle clipping indication\n"
 "right click for options"
 msgstr ""
-"Attiva l'indicatore di taglio\n"
+"attiva l'indicatore di taglio\n"
 "click destro per ulteriori opzioni"
 
 #: ../src/views/darkroom.c:2349
@@ -26338,7 +26359,7 @@ msgid ""
 "toggle softproofing\n"
 "right click for profile options"
 msgstr ""
-"Attiva la simulazione a schermo\n"
+"attiva la simulazione a schermo\n"
 "Click destro per le opzioni profilo"
 
 #: ../src/views/darkroom.c:2411
@@ -26401,7 +26422,7 @@ msgid ""
 "toggle guide lines\n"
 "right click for guides options"
 msgstr ""
-"Attiva le linee guida\n"
+"attiva le linee guida\n"
 "Click destro per ulteriori opzioni"
 
 #. Fullscreen preview key
@@ -26451,7 +26472,7 @@ msgstr "Visualizza maschere disegnate"
 #. brush size +/-
 #: ../src/views/darkroom.c:2620
 msgid "increase brush size"
-msgstr "Aumenta dimensione pennello"
+msgstr "aumenta dimensione pennello"
 
 #: ../src/views/darkroom.c:2621
 msgid "decrease brush size"
@@ -26460,7 +26481,7 @@ msgstr "Diminuisci dimensione pennello"
 #. brush hardness +/-
 #: ../src/views/darkroom.c:2624
 msgid "increase brush hardness"
-msgstr "Aumenta durezza pennello"
+msgstr "aumenta durezza pennello"
 
 #: ../src/views/darkroom.c:2625
 msgid "decrease brush hardness"
@@ -26469,7 +26490,7 @@ msgstr "Diminuisci durezza pennello"
 #. brush opacity +/-
 #: ../src/views/darkroom.c:2628
 msgid "increase brush opacity"
-msgstr "Aumenta opacità pennello"
+msgstr "aumenta opacità pennello"
 
 #: ../src/views/darkroom.c:2629
 msgid "decrease brush opacity"
@@ -26634,11 +26655,11 @@ msgstr "Riallinea le immagini alla griglia"
 
 #: ../src/views/lighttable.c:1270
 msgid "reset first image offset"
-msgstr "Azzera lo spostamento della prima immagine"
+msgstr "azzera lo spostamento della prima immagine"
 
 #: ../src/views/lighttable.c:1271
 msgid "select toggle image"
-msgstr "Attiva selezione immagine"
+msgstr "attiva selezione immagine"
 
 #: ../src/views/lighttable.c:1272
 msgid "select single image"
@@ -26705,7 +26726,7 @@ msgstr "Scorri"
 
 #: ../src/views/map.c:2467
 msgid "scroll down wide"
-msgstr ""
+msgstr "scorrere verso il basso"
 
 #: ../src/views/map.c:3248
 msgid "[on image] open in darkroom"
@@ -26835,7 +26856,7 @@ msgstr ""
 #. we add the mouse actions too
 #: ../src/views/view.c:1532
 msgid "mouse actions"
-msgstr "Azioni mouse"
+msgstr "azioni mouse"
 
 #~ msgctxt "preferences"
 #~ msgid "unrestricted"

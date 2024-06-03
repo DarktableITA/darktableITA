@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 18:53+0200\n"
-"PO-Revision-Date: 2024-06-03 21:12+0200\n"
+"PO-Revision-Date: 2024-06-03 21:20+0200\n"
 "Last-Translator: Fabio Sirna <fabio@fabiosirna.com>\n"
 "Language-Team: Italian <kde-i18n-doc@kde.org>\n"
 "Language: it\n"
@@ -365,7 +365,7 @@ msgstr "Alta"
 #: ../build/bin/conf_gen.h:1396 ../build/bin/preferences_gen.h:5369
 msgctxt "preferences"
 msgid "false color"
-msgstr "Colore falso"
+msgstr "colore falso"
 
 #: ../build/bin/conf_gen.h:1397
 msgctxt "preferences"
@@ -744,7 +744,7 @@ msgstr "Nessun colore"
 #: ../build/bin/conf_gen.h:3516
 msgctxt "preferences"
 msgid "illuminant color"
-msgstr "Colore illuminante"
+msgstr "colore illuminante"
 
 #: ../build/bin/conf_gen.h:3517
 msgctxt "preferences"
@@ -2564,7 +2564,7 @@ msgstr "Cambio esposizione"
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:239
 #: ../src/libs/metadata_view.c:152
 msgid "exposure bias"
-msgstr "Compensazione esposizione"
+msgstr "compensazione esposizione"
 
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:152
 #: ../build/lib/darktable/plugins/introspection_basecurve.c:243
@@ -2742,7 +2742,7 @@ msgstr "Curvatura"
 #: ../build/lib/darktable/plugins/introspection_graduatednd.c:148
 #: ../src/iop/colorbalancergb.c:2010
 msgid "offset"
-msgstr "Compensazione"
+msgstr "compensazione"
 
 #: ../build/lib/darktable/plugins/introspection_blurs.c:220
 #: ../src/common/collection.c:636 ../src/gui/preferences.c:826
@@ -2783,12 +2783,12 @@ msgstr "Dimensione bordo"
 #: ../build/lib/darktable/plugins/introspection_borders.c:152
 #: ../build/lib/darktable/plugins/introspection_borders.c:289
 msgid "horizontal offset"
-msgstr "Compensazione orizzontale"
+msgstr "compensazione orizzontale"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:170
 #: ../build/lib/darktable/plugins/introspection_borders.c:301
 msgid "vertical offset"
-msgstr "Compensazione verticale"
+msgstr "compensazione verticale"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:188
 #: ../build/lib/darktable/plugins/introspection_borders.c:313
@@ -2798,7 +2798,7 @@ msgstr "Dimensione della cornice"
 #: ../build/lib/darktable/plugins/introspection_borders.c:194
 #: ../build/lib/darktable/plugins/introspection_borders.c:317
 msgid "frame line offset"
-msgstr "Compensazione linea cornice"
+msgstr "compensazione linea cornice"
 
 #: ../build/lib/darktable/plugins/introspection_borders.c:218
 #: ../build/lib/darktable/plugins/introspection_borders.c:333
@@ -3062,7 +3062,7 @@ msgstr "Algoritmo di saturazione"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:507
 msgid "same as pipeline (D50)"
-msgstr "Come la coda di sviluppo (D50)"
+msgstr "come la coda di sviluppo (D50)"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:508
 msgid "A (incandescent)"
@@ -3095,7 +3095,7 @@ msgstr "Personalizzato"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:517
 msgid "as shot in camera"
-msgstr "Come scattato dalla camera"
+msgstr "come scattato dalla camera"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:522
 msgid "F1 (Daylight 6430 K) – medium CRI"
@@ -3508,7 +3508,7 @@ msgstr "Intervallo estensione"
 #: ../build/lib/darktable/plugins/introspection_colorreconstruction.c:154
 #: ../src/iop/channelmixerrgb.c:4745
 msgid "saturated colors"
-msgstr "Colori saturati"
+msgstr "colori saturati"
 
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:218
 #: ../build/lib/darktable/plugins/introspection_colorequal.c:447
@@ -3778,7 +3778,7 @@ msgstr "Passaggio (monocromia)"
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:221
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:228
 msgid "photosite color (debug)"
-msgstr "Colore fotosito (debug)"
+msgstr "colore fotosito (debug)"
 
 #: ../build/lib/darktable/plugins/introspection_demosaic.c:222
 msgid "VNG"
@@ -4085,7 +4085,7 @@ msgstr "Ritaglia in basso"
 #: ../src/libs/colorpicker.c:320 ../src/libs/image.c:686
 #: ../src/libs/modulegroups.c:2334
 msgid "color"
-msgstr "Colore"
+msgstr "colore"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:162
 #: ../src/iop/levels.c:681 ../src/iop/rgblevels.c:968
@@ -4112,7 +4112,7 @@ msgstr "Livello target"
 #: ../build/lib/darktable/plugins/introspection_exposure.c:91
 #: ../build/lib/darktable/plugins/introspection_exposure.c:154
 msgid "compensate exposure bias"
-msgstr "Compensazione esposizione"
+msgstr "compensazione esposizione"
 
 #: ../build/lib/darktable/plugins/introspection_exposure.c:168
 #: ../build/lib/darktable/plugins/introspection_levels.c:160
@@ -4254,7 +4254,7 @@ msgstr "Contrasto nelle alteluci"
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:368
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:527
 msgid "compensate output ICC profile black point"
-msgstr "Compensa il punto di nero del profilo ICC di uscita"
+msgstr "compensa il punto di nero del profilo ICC di uscita"
 
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:374
 #: ../build/lib/darktable/plugins/introspection_filmicrgb.c:531
@@ -4423,7 +4423,7 @@ msgstr "Candidatura"
 #: ../build/lib/darktable/plugins/introspection_highlights.c:173
 #: ../build/lib/darktable/plugins/introspection_highlights.c:264
 msgid "combine"
-msgstr "Combina"
+msgstr "combina"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:179
 #: ../build/lib/darktable/plugins/introspection_highlights.c:268
@@ -4805,7 +4805,7 @@ msgstr "Pellicole"
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:132
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:231
 msgid "scan exposure bias"
-msgstr "Compensazione esposizione dello scanner"
+msgstr "compensazione esposizione dello scanner"
 
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:138
 #: ../build/lib/darktable/plugins/introspection_negadoctor.c:235
@@ -5102,7 +5102,7 @@ msgstr "Cancella"
 #: ../build/lib/darktable/plugins/introspection_rgbcurve.c:223
 #: ../src/iop/rgbcurve.c:1589
 msgid "compensate middle gray"
-msgstr "Compensa il grigio medio"
+msgstr "compensa il grigio medio"
 
 #: ../build/lib/darktable/plugins/introspection_rgbcurve.c:246
 #: ../build/lib/darktable/plugins/introspection_rgblevels.c:148
@@ -5290,12 +5290,12 @@ msgstr "Quantizzazione maschera"
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:222
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:341
 msgid "mask contrast compensation"
-msgstr "Compens. contrasto maschera"
+msgstr "compens. contrasto maschera"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:228
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:345
 msgid "mask exposure compensation"
-msgstr "Compens. esposizione maschera"
+msgstr "compens. esposizione maschera"
 
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:240
 #: ../build/lib/darktable/plugins/introspection_toneequal.c:353
@@ -5886,7 +5886,7 @@ msgstr "Flash"
 #, fuzzy
 #| msgid "exposure bias"
 msgid "exposure program"
-msgstr "Compensazione esposizione"
+msgstr "compensazione esposizione"
 
 #: ../src/common/collection.c:672 ../src/libs/metadata_view.c:156
 #, fuzzy
@@ -6241,7 +6241,7 @@ msgstr "Magenta scuro"
 
 #: ../src/common/color_vocabulary.c:346
 msgid "color not found"
-msgstr "Colore non trovato"
+msgstr "colore non trovato"
 
 #: ../src/common/colorlabels.c:350
 #, c-format
@@ -6584,7 +6584,7 @@ msgstr ""
 "\n"
 "  Ci dispiace, darktable non può esser avviato (il database è bloccato)\n"
 "\n"
-"  Come si può risolvere questo problema?\n"
+"  come si può risolvere questo problema?\n"
 "\n"
 "  1 - Se è aperta un'altra istanza di darktable, \n"
 "      clicca annulla e usa quell'istanza oppure chiudila prima di tentare di "
@@ -8260,7 +8260,7 @@ msgstr "Impostata data/ora di %d immagini"
 
 #: ../src/control/jobs/control_jobs.c:2233
 msgid "time offset"
-msgstr "Compens. oraria"
+msgstr "compens. oraria"
 
 #: ../src/control/jobs/control_jobs.c:2264 ../src/libs/copy_history.c:414
 msgid "write sidecar files"
@@ -8435,7 +8435,7 @@ msgstr "Canale Lab c"
 #: ../src/develop/blend_gui.c:100
 msgctxt "blendmode"
 msgid "Lab color"
-msgstr "Colore Lab"
+msgstr "colore Lab"
 
 #: ../src/develop/blend_gui.c:103
 msgctxt "blendmode"
@@ -8460,7 +8460,7 @@ msgstr "Valore HSV"
 #: ../src/develop/blend_gui.c:111
 msgctxt "blendmode"
 msgid "HSV color"
-msgstr "Colore HSV"
+msgstr "colore HSV"
 
 #: ../src/develop/blend_gui.c:114
 msgctxt "blendmode"
@@ -8470,7 +8470,7 @@ msgstr "Tonalità"
 #: ../src/develop/blend_gui.c:116
 msgctxt "blendmode"
 msgid "color"
-msgstr "Colore"
+msgstr "colore"
 
 #: ../src/develop/blend_gui.c:118
 msgctxt "blendmode"
@@ -9071,14 +9071,14 @@ msgstr "Imposta l'opacità della fusione"
 
 #: ../src/develop/blend_gui.c:3633 ../src/libs/history.c:959
 msgid "combine masks"
-msgstr "Combina le maschere"
+msgstr "combina le maschere"
 
 #: ../src/develop/blend_gui.c:3635
 msgid ""
 "how to combine individual drawn mask and different channels of parametric "
 "mask"
 msgstr ""
-"Come combinare la maschera disegnata e i differenti canali della maschera "
+"come combinare la maschera disegnata e i differenti canali della maschera "
 "parametrica"
 
 #: ../src/develop/blend_gui.c:3642
@@ -10476,7 +10476,7 @@ msgid ""
 "\n"
 "<tt>%s</tt>"
 msgstr ""
-"Comando script Lua copiato negli appunti:\n"
+"comando script Lua copiato negli appunti:\n"
 "\n"
 "<tt>%s</tt>"
 
@@ -11591,7 +11591,7 @@ msgstr "Imposta linee guida"
 
 #: ../src/gui/guides.c:727
 msgid "overlay color"
-msgstr "Colore sovrapposizione"
+msgstr "colore sovrapposizione"
 
 #: ../src/gui/guides.c:727
 msgid "set overlay color"
@@ -13522,7 +13522,7 @@ msgstr "Neutrale"
 
 #: ../src/iop/basecurve.c:261
 msgid "canon eos like"
-msgstr "Come Canon EOS"
+msgstr "come Canon EOS"
 
 #: ../src/iop/basecurve.c:262
 msgid "canon eos like alternate"
@@ -14141,11 +14141,11 @@ msgstr ""
 
 #: ../src/iop/borders.c:1007
 msgid "offset of the frame line beginning on picture side"
-msgstr "Compensazione della cornice partendo dal lato dell'immagine"
+msgstr "compensazione della cornice partendo dal lato dell'immagine"
 
 #: ../src/iop/borders.c:1017 ../src/iop/borders.c:1028
 msgid "border color"
-msgstr "Colore bordo"
+msgstr "colore bordo"
 
 #: ../src/iop/borders.c:1021
 msgid "select border color"
@@ -14166,7 +14166,7 @@ msgstr "selettori"
 
 #: ../src/iop/borders.c:1033 ../src/iop/borders.c:1045
 msgid "frame line color"
-msgstr "Colore della cornice"
+msgstr "colore della cornice"
 
 #: ../src/iop/borders.c:1038
 msgid "select frame line color"
@@ -14603,7 +14603,7 @@ msgid ""
 "set the white balance here to camera reference (D65)\n"
 "or disable chromatic adaptation in color calibration."
 msgstr ""
-"Il modulo Calibrazione Colore è attivo e già fornisce\n"
+"Il modulo Calibrazione colore è attivo e già fornisce\n"
 "l'adattamento cromatico.\n"
 "Imposta il bilanciamento del bianco in riferimento camera (D65)\n"
 "oppure disattiva l'adattamento dei colori nel modulo calibrazione colore"
@@ -14637,9 +14637,9 @@ msgid ""
 msgstr ""
 "Questo moulo non sta fornendo un riferimento valido\n"
 "dell'illuminante generando problemi nell'adattamento\n"
-" cromatico in Calibrazione Colore abilita questo modulo\n"
+" cromatico in Calibrazione colore abilita questo modulo\n"
 "e o imposti il riferimento o disabiliti l'adattamento\n"
-"cromatico in Calibrazione Colore."
+"cromatico in Calibrazione colore."
 
 #: ../src/iop/channelmixerrgb.c:2090
 msgid ""
@@ -14673,7 +14673,7 @@ msgid ""
 "this illuminant can be accurately modeled by a daylight spectrum,\n"
 "so its temperature is relevant and meaningful with a D illuminant."
 msgstr ""
-"Colore temperatura approssimato.\n"
+"colore temperatura approssimato.\n"
 "Questa fonte luminosa può essere gestita con lo\n"
 "spettro della luce solare, quindi la sua temperatura\n"
 "è rilevante e significativa con una finte luminosa D."
@@ -14689,7 +14689,7 @@ msgid ""
 "this illuminant can be accurately modeled by a black body spectrum,\n"
 "so its temperature is relevant and meaningful with a Planckian illuminant."
 msgstr ""
-"Colore temperatura approssimato.\n"
+"colore temperatura approssimato.\n"
 "Questa fonte luminosa può essere modellata con\n"
 "un corpo nero, quindi la sua temperatura è rilevante\n"
 "e significativa con una fonte luminosa Planckiana."
@@ -14707,7 +14707,7 @@ msgid ""
 "so its temperature is not relevant and meaningful and you need to use a "
 "custom illuminant."
 msgstr ""
-"Colore temperatura approssimato.\n"
+"colore temperatura approssimato.\n"
 "Questa fonte luminosa non può essere modellata con cura\n"
 "da uno spettro solare o corpo nero, quindi la sua temperature\n"
 "non è rilevante e significativa e dovrai utilizzare\n"
@@ -14723,7 +14723,7 @@ msgid ""
 "the approximated correlated color temperature\n"
 "cannot be computed at all so you need to use a custom illuminant."
 msgstr ""
-"Colore temperatura approssimato.\n"
+"colore temperatura approssimato.\n"
 "Non è stato possibile calcolarlo quindi\n"
 "dovrai usare una fonte luminosa personalizzata."
 
@@ -14943,11 +14943,11 @@ msgstr "Uscita B"
 
 #: ../src/iop/channelmixerrgb.c:4689
 msgid "colorfulness"
-msgstr "Colorazione"
+msgstr "colorazione"
 
 #: ../src/iop/channelmixerrgb.c:4689
 msgid "output colorfulness"
-msgstr "Colorazione di uscita"
+msgstr "colorazione di uscita"
 
 #: ../src/iop/channelmixerrgb.c:4693
 msgid "output brightness"
@@ -15022,28 +15022,28 @@ msgid ""
 "the others are special behaviors to protect some hues"
 msgstr ""
 "Scegli i colori che andranno ottimizzati con maggior priorità.\n"
-"Colori neutri danno il più basso delta E medio ma un maggior valore massimo "
+"colori neutri danno il più basso delta E medio ma un maggior valore massimo "
 "del delta E\n"
-"Colori saturi danno il più basso valore massimo di delta E ma un maggiore "
+"colori saturi danno il più basso valore massimo di delta E ma un maggiore "
 "delta E medio\n"
 "Nessuno è un compromesso tra i due\n"
 "Gli altri sono comportamenti speciali per conservare alcune tonalità"
 
 #: ../src/iop/channelmixerrgb.c:4744
 msgid "neutral colors"
-msgstr "Colori neutrali"
+msgstr "colori neutrali"
 
 #: ../src/iop/channelmixerrgb.c:4746
 msgid "skin and soil colors"
-msgstr "Colori della pelle e del suolo"
+msgstr "colori della pelle e del suolo"
 
 #: ../src/iop/channelmixerrgb.c:4747
 msgid "foliage colors"
-msgstr "Colori del foliage"
+msgstr "colori del foliage"
 
 #: ../src/iop/channelmixerrgb.c:4748
 msgid "sky and water colors"
-msgstr "Colori del cielo e dell'acqua"
+msgstr "colori del cielo e dell'acqua"
 
 #: ../src/iop/channelmixerrgb.c:4749
 msgid "average delta E"
@@ -15355,7 +15355,7 @@ msgstr "[%s on borders] ritaglia e mantieni le proporzioni"
 msgid "this module is deprecated. please use colorbalance RGB module instead."
 msgstr ""
 "Questo modulo è deprecato. Si prega invece di usare il modulo Bilanciamento "
-"Colore RGB"
+"colore RGB"
 
 #: ../src/iop/colisa.c:84
 msgid "contrast brightness saturation"
@@ -15613,15 +15613,15 @@ msgstr "Aggiungi colorazione di base (legacy)"
 
 #: ../src/iop/colorbalancergb.c:544
 msgid "basic colorfulness: natural skin"
-msgstr "Colorazione di base: pelle naturale"
+msgstr "colorazione di base: pelle naturale"
 
 #: ../src/iop/colorbalancergb.c:550
 msgid "basic colorfulness: vibrant colors"
-msgstr "Colorazione di base: colori vibranti"
+msgstr "colorazione di base: colori vibranti"
 
 #: ../src/iop/colorbalancergb.c:556
 msgid "basic colorfulness: standard"
-msgstr "Colorazione di base: standard"
+msgstr "colorazione di base: standard"
 
 #: ../src/iop/colorbalancergb.c:1011
 msgid "colorbalance works only on RGB input"
@@ -15979,7 +15979,7 @@ msgstr ""
 
 #: ../src/iop/colorchecker.c:1453
 msgid "green-magenta offset"
-msgstr "Compensazione verde-magenta"
+msgstr "compensazione verde-magenta"
 
 #: ../src/iop/colorchecker.c:1462
 msgid ""
@@ -15993,7 +15993,7 @@ msgstr ""
 
 #: ../src/iop/colorchecker.c:1465
 msgid "blue-yellow offset"
-msgstr "Compensazione blue-giallo"
+msgstr "compensazione blue-giallo"
 
 #: ../src/iop/colorchecker.c:1474
 msgid ""
@@ -16010,7 +16010,7 @@ msgstr ""
 
 #: ../src/iop/colorchecker.c:1483
 msgid "target color"
-msgstr "Colore finale"
+msgstr "colore finale"
 
 #: ../src/iop/colorchecker.c:1486
 msgid ""
@@ -16244,7 +16244,7 @@ msgid ""
 "how clusters are mapped. low values: based on color proximity, high values: "
 "based on color dominance"
 msgstr ""
-"Come vengono mappate le matrici. Valori bassi: basato sulla prossimità del "
+"come vengono mappate le matrici. Valori bassi: basato sulla prossimità del "
 "colore, valori alti: basato sulla dominanza del colore"
 
 #: ../src/iop/colormapping.c:1036
@@ -16298,7 +16298,7 @@ msgstr "Percettivo"
 #: ../src/libs/print_settings.c:2493 ../src/libs/print_settings.c:2842
 #: ../src/views/darkroom.c:2433 ../src/views/lighttable.c:1177
 msgid "relative colorimetric"
-msgstr "Colorimetrico relativo"
+msgstr "colorimetrico relativo"
 
 #: ../src/iop/colorout.c:853 ../src/libs/export.c:1360
 #: ../src/libs/print_settings.c:2494 ../src/libs/print_settings.c:2843
@@ -16311,7 +16311,7 @@ msgstr "Saturazione"
 #: ../src/libs/print_settings.c:2495 ../src/libs/print_settings.c:2844
 #: ../src/views/darkroom.c:2435 ../src/views/lighttable.c:1179
 msgid "absolute colorimetric"
-msgstr "Colorimetrico assoluto"
+msgstr "colorimetrico assoluto"
 
 #: ../src/iop/colorout.c:872
 msgid "export ICC profiles"
@@ -16386,7 +16386,7 @@ msgstr "Trasferimento colore"
 
 #: ../src/iop/colortransfer.c:118
 msgid "this module is deprecated. better use color mapping module instead."
-msgstr "Questo modulo è deprecato. Utilizza il modulo Mappatura Colore"
+msgstr "Questo modulo è deprecato. Utilizza il modulo Mappatura colore"
 
 #: ../src/iop/colortransfer.c:416
 msgid ""
@@ -16526,6 +16526,10 @@ msgid ""
 "visualize weighting function on changed output and view weighting curve.\n"
 "red shows possibly changed data, blueish parts will not be changed."
 msgstr ""
+"visualizza la funzione di ponderazione sull'uscita modificata e visualizza "
+"la curva di ponderazione.\n"
+"Il rosso indica i dati che potrebbero essere modificati, mentre le parti "
+"bluastre non saranno modificate."
 
 #: ../src/iop/colorequal.c:2681
 msgid ""
@@ -16534,6 +16538,11 @@ msgid ""
 " - increase to restrict changes to higher chromaticities\n"
 "   increases contrast and avoids brightness changes in low chromaticity areas"
 msgstr ""
+"imposta la soglia di saturazione per il filtro guidato.\n"
+" - diminuire per consentire le modifiche nelle aree a bassa cromaticità\n"
+" - aumentare per limitare le modifiche alle cromaticità più alte\n"
+"aumenta il contrasto ed evita le variazioni di luminosità nelle aree a bassa "
+"cromaticità"
 
 #: ../src/iop/colorequal.c:2689
 msgid ""
@@ -16542,6 +16551,10 @@ msgid ""
 "contrast\n"
 " - decrease for smoother transitions"
 msgstr ""
+"imposta il contrasto di saturazione per il filtro guidato.\n"
+" - aumentare per favorire transizioni nette tra le saturazioni che portano a "
+"un contrasto più elevato.\n"
+" - diminuire per ottenere transizioni più morbide"
 
 #: ../src/iop/colorequal.c:2696
 #, fuzzy
@@ -17536,7 +17549,7 @@ msgstr "Impossibile leggere il buffer RAW dall'immagine '%s'"
 #: ../src/iop/exposure.c:643
 #, no-c-format
 msgid "compensate camera exposure (%+.1f EV)"
-msgstr "Compensa l'esposizione della fotocamera (%+.1f EV)"
+msgstr "compensa l'esposizione della fotocamera (%+.1f EV)"
 
 #. Write report in GUI
 #: ../src/iop/exposure.c:827
@@ -18611,7 +18624,7 @@ msgid ""
 "this often leads to improved color reconstruction for tiny segments before "
 "dark background."
 msgstr ""
-"Combina, attraverso operazioni morfologiche, i segmenti tagliati che sono "
+"combina, attraverso operazioni morfologiche, i segmenti tagliati che sono "
 "strettamente correlati.\n"
 " Questo porta spess a migliorare la ricostruzione colore per i segmeni "
 "piccoli prima di uno sfondo scuro."
@@ -18794,7 +18807,7 @@ msgstr "Luminosità del supporto della pellicola"
 
 #: ../src/iop/invert.c:419
 msgid "color of film material"
-msgstr "Colore del supporto della pellicola"
+msgstr "colore del supporto della pellicola"
 
 #: ../src/iop/invert.c:503 ../src/iop/negadoctor.c:861
 msgid "pick color of film material from image"
@@ -19557,7 +19570,7 @@ msgstr "Proprietà pellicola"
 #: ../src/iop/negadoctor.c:850
 msgctxt "section"
 msgid "color of the film base"
-msgstr "Colore del supporto della pellicola"
+msgstr "colore del supporto della pellicola"
 
 #: ../src/iop/negadoctor.c:856
 msgid "select color of film material from a swatch"
@@ -19638,7 +19651,7 @@ msgstr "Prendi il colore delle ombre dall'immagine"
 
 #: ../src/iop/negadoctor.c:934
 msgid "shadows red offset"
-msgstr "Compensazione rosso delle ombre"
+msgstr "compensazione rosso delle ombre"
 
 #: ../src/iop/negadoctor.c:935 ../src/iop/negadoctor.c:942
 #: ../src/iop/negadoctor.c:949
@@ -20351,7 +20364,7 @@ msgstr "Cancella il dettaglio o riempi con il colore prescelto"
 
 #: ../src/iop/retouch.c:2693
 msgid "fill color: "
-msgstr "Colore riempimento:"
+msgstr "colore riempimento:"
 
 #: ../src/iop/retouch.c:2698 ../src/iop/retouch.c:2699
 msgid "select fill color"
@@ -20900,7 +20913,7 @@ msgstr ""
 #: ../src/iop/temperature.c:1680
 msgctxt "white balance"
 msgid "as shot"
-msgstr "Come scattato"
+msgstr "come scattato"
 
 #. old "spot", reason: describes exactly what'll happen
 #: ../src/iop/temperature.c:1683
@@ -20968,7 +20981,7 @@ msgstr "Impostazioni"
 
 #: ../src/iop/temperature.c:2091
 msgid "as shot"
-msgstr "Come scattato"
+msgstr "come scattato"
 
 #: ../src/iop/temperature.c:2094
 msgid "set white balance to as shot"
@@ -21047,7 +21060,7 @@ msgstr "Tinta"
 
 #: ../src/iop/temperature.c:2186
 msgid "color tint of the image, from magenta (value < 1) to green (value > 1)"
-msgstr "Colore tinta immagine, da magenta (valore <1) a verde (valore >1)"
+msgstr "colore tinta immagine, da magenta (valore <1) a verde (valore >1)"
 
 #: ../src/iop/temperature.c:2192
 msgid "channel coefficients"
@@ -21501,11 +21514,11 @@ msgstr "Intensità dell'effetto sulla saturazione"
 
 #: ../src/iop/vignette.c:1081
 msgid "horizontal offset of center of the effect"
-msgstr "Compensazione orizzontale del centro dell'effetto"
+msgstr "compensazione orizzontale del centro dell'effetto"
 
 #: ../src/iop/vignette.c:1082
 msgid "vertical offset of center of the effect"
-msgstr "Compensazione verticale del centro dell'effetto"
+msgstr "compensazione verticale del centro dell'effetto"
 
 #: ../src/iop/vignette.c:1085
 msgid ""
@@ -21604,7 +21617,7 @@ msgid ""
 "watermark color, tag:\n"
 "$(WATERMARK_COLOR)"
 msgstr ""
-"Colore filigrana, tag:\n"
+"colore filigrana, tag:\n"
 "$(WATERMARK_COLOR)"
 
 #: ../src/iop/watermark.c:1347
@@ -22180,7 +22193,7 @@ msgstr ""
 
 #: ../src/libs/copy_history.c:400 ../src/libs/styles.c:896
 msgid "how to handle existing history"
-msgstr "Come gestire la coda di sviluppo esistente"
+msgstr "come gestire la coda di sviluppo esistente"
 
 #: ../src/libs/copy_history.c:403 ../src/libs/styles.c:899
 msgid "append"
@@ -22924,7 +22937,7 @@ msgstr "Filtra le immagini in base all'ordine dei moduli"
 
 #: ../src/libs/filters/rating.c:199
 msgid "comparator"
-msgstr "Comparatore"
+msgstr "comparatore"
 
 #: ../src/libs/filters/rating.c:200 ../src/libs/filters/rating.c:210
 msgid "filter by images rating"
@@ -23540,7 +23553,7 @@ msgstr "Seleziona i metadati di classificazione"
 
 #: ../src/libs/image.c:608
 msgid "colors"
-msgstr "Colori"
+msgstr "colori"
 
 #: ../src/libs/image.c:610
 msgid "select colors metadata"
@@ -23572,7 +23585,7 @@ msgstr "Cancella metadati nelle immagini selezionate"
 
 #: ../src/libs/image.c:670
 msgid "how to handle existing metadata"
-msgstr "Come gestire i metadati esistenti"
+msgstr "come gestire i metadati esistenti"
 
 #: ../src/libs/image.c:673
 msgid "merge"
@@ -23887,12 +23900,12 @@ msgstr "Satura"
 #: ../src/libs/live_view.c:344
 msgctxt "blendmode"
 msgid "color dodge"
-msgstr "Colore scherma"
+msgstr "colore scherma"
 
 #: ../src/libs/live_view.c:345
 msgctxt "blendmode"
 msgid "color burn"
-msgstr "Colore brucia"
+msgstr "colore brucia"
 
 #: ../src/libs/live_view.c:346
 msgctxt "blendmode"
@@ -23922,7 +23935,7 @@ msgstr "Saturazione HSL"
 #: ../src/libs/live_view.c:352
 msgctxt "blendmode"
 msgid "HSL color"
-msgstr "Colore HSL"
+msgstr "colore HSL"
 
 #: ../src/libs/live_view.c:353
 msgctxt "blendmode"
@@ -24464,7 +24477,7 @@ msgstr "Tonalità"
 #: ../src/libs/modulegroups.c:1742
 msgctxt "modulegroup"
 msgid "color"
-msgstr "Colore"
+msgstr "colore"
 
 #: ../src/libs/modulegroups.c:1593 ../src/libs/modulegroups.c:1697
 #: ../src/libs/modulegroups.c:1748
@@ -24907,7 +24920,7 @@ msgstr "profili ICC per la stampante"
 
 #: ../src/libs/print_settings.c:2501
 msgid "black point compensation"
-msgstr "Compens. punto di nero"
+msgstr "compens. punto di nero"
 
 #: ../src/libs/print_settings.c:2514
 msgid "activate black point compensation when applying the printer profile"
@@ -25591,7 +25604,7 @@ msgstr "Esporta tutte le tag in un file keyword di Lightroom"
 
 #: ../src/libs/tagging.c:3323
 msgid "toggle list / tree view"
-msgstr "Commuta visualizzazione lista / albero"
+msgstr "commuta visualizzazione lista / albero"
 
 #: ../src/libs/tagging.c:3323
 msgid "tree"
@@ -26217,11 +26230,11 @@ msgstr "Marca con colore a tinta unita"
 
 #: ../src/views/darkroom.c:2302
 msgid "false color"
-msgstr "Colore falso"
+msgstr "colore falso"
 
 #: ../src/views/darkroom.c:2305 ../src/views/darkroom.c:2356
 msgid "color scheme"
-msgstr "Combinazione colori"
+msgstr "combinazione colori"
 
 #: ../src/views/darkroom.c:2306
 #, fuzzy

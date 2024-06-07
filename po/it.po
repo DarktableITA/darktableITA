@@ -9,7 +9,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 18:53+0200\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-06-07 19:45+0200\n"
+=======
+"PO-Revision-Date: 2024-06-03 21:38+0200\n"
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 "Last-Translator: Fabio Sirna <fabio@fabiosirna.com>\n"
 "Language-Team: Italian <kde-i18n-doc@kde.org>\n"
 "Language: it\n"
@@ -17,7 +21,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 "X-Generator: Lokalize 24.05.0\n"
+=======
+"X-Generator: Poedit 3.4.4\n"
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 
 #: ../build/bin/conf_gen.h:90
 msgctxt "preferences"
@@ -4059,9 +4067,16 @@ msgstr "Percentile"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:68
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:133
+<<<<<<< HEAD
 #| msgid "print height"
 msgid "percent right"
 msgstr "percentuale di destra"
+=======
+#, fuzzy
+#| msgid "print height"
+msgid "percent right"
+msgstr "Altezza di stampa"
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:74
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:137
@@ -9114,9 +9129,16 @@ msgstr "raggio di sfumatura"
 #: ../src/iop/colorbalancergb.c:2164 ../src/iop/colorequal.c:2664
 #: ../src/iop/colorequal.c:2695 ../src/iop/diffuse.c:1792
 #: ../src/iop/diffuse.c:1802 ../src/iop/retouch.c:2729
+<<<<<<< HEAD
 #| msgid "2 px"
 msgid " px"
 msgstr "px"
+=======
+#, fuzzy
+#| msgid "2 px"
+msgid " px"
+msgstr "2 px"
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 
 #: ../src/develop/blend_gui.c:3669
 msgid "spatial radius of feathering"
@@ -9682,6 +9704,10 @@ msgstr ""
 "<b>azzera curvatura</b>: click destro"
 
 #: ../src/develop/masks/path.c:3365
+<<<<<<< HEAD
+=======
+#, fuzzy
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 #| msgid ""
 #| "<b>add node</b>: click, <b>add sharp node</b>: ctrl+click\n"
 #| "<b>finish path</b>: right-click"
@@ -9689,8 +9715,14 @@ msgid ""
 "<b>move segment</b>: drag, <b>add node</b>: ctrl+click\n"
 "<b>remove path</b>: right-click"
 msgstr ""
+<<<<<<< HEAD
 "<b>aggiungi un nodo</b>: drag, <b>aggiungi un nodo ad angolo</b>: Ctrl+click\n"
 "<b>rimuovi il tracciato</b>: click destro"
+=======
+"<b>aggiungi un nodo</b>: click, <b>aggiungi un nodo ad angolo</b>: "
+"Ctrl+click\n"
+"<b>termina il tracciato</b>: click destro"
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 
 #: ../src/develop/pixelpipe_hb.c:491
 msgid "enabled as required"
@@ -11466,6 +11498,10 @@ msgid "$(OPENCL.ACTIVATED) - whether OpenCL is activated"
 msgstr "$(OPENCL.ACTIVATED) - qualora OpenCL è attivato"
 
 #: ../src/gui/gtkentry.c:243
+<<<<<<< HEAD
+=======
+#, fuzzy
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 #| msgid "$(CATEGORY0(category)) - subtag of level 0 in hierarchical tags"
 msgid "$(CATEGORY[n,category]) - subtag of level n in hierarchical tags"
 msgstr ""
@@ -16681,6 +16717,10 @@ msgid "change the framing"
 msgstr "Modifica la cornice"
 
 #: ../src/iop/crop.c:1151
+<<<<<<< HEAD
+=======
+#, fuzzy
+>>>>>>> 3c4ee6d04e39f56128ae47e22f9fd49b9953ba92
 #| msgid "2:1, univisium"
 msgid "2:1, Univisium"
 msgstr "2:1, univisium"

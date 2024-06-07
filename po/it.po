@@ -3,13 +3,13 @@
 #
 # Matteo Mardegan <11093569+mmardegan@users.noreply.github.com>, 2023.
 # Luca Cignoni <cigno5@users.noreply.github.com>, 2023.
-# Fabio Sirna <fabio@fabiosirna.com>, 2023.
+# SPDX-FileCopyrightText: 2023, 2024 Fabio Sirna <fabio@fabiosirna.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 18:53+0200\n"
-"PO-Revision-Date: 2024-06-03 21:38+0200\n"
+"PO-Revision-Date: 2024-06-07 19:45+0200\n"
 "Last-Translator: Fabio Sirna <fabio@fabiosirna.com>\n"
 "Language-Team: Italian <kde-i18n-doc@kde.org>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 #: ../build/bin/conf_gen.h:90
 msgctxt "preferences"
@@ -4059,10 +4059,9 @@ msgstr "Percentile"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:68
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:133
-#, fuzzy
 #| msgid "print height"
 msgid "percent right"
-msgstr "Altezza di stampa"
+msgstr "percentuale di destra"
 
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:74
 #: ../build/lib/darktable/plugins/introspection_enlargecanvas.c:137
@@ -9115,10 +9114,9 @@ msgstr "raggio di sfumatura"
 #: ../src/iop/colorbalancergb.c:2164 ../src/iop/colorequal.c:2664
 #: ../src/iop/colorequal.c:2695 ../src/iop/diffuse.c:1792
 #: ../src/iop/diffuse.c:1802 ../src/iop/retouch.c:2729
-#, fuzzy
 #| msgid "2 px"
 msgid " px"
-msgstr "2 px"
+msgstr "px"
 
 #: ../src/develop/blend_gui.c:3669
 msgid "spatial radius of feathering"
@@ -9684,7 +9682,6 @@ msgstr ""
 "<b>azzera curvatura</b>: click destro"
 
 #: ../src/develop/masks/path.c:3365
-#, fuzzy
 #| msgid ""
 #| "<b>add node</b>: click, <b>add sharp node</b>: ctrl+click\n"
 #| "<b>finish path</b>: right-click"
@@ -9692,9 +9689,8 @@ msgid ""
 "<b>move segment</b>: drag, <b>add node</b>: ctrl+click\n"
 "<b>remove path</b>: right-click"
 msgstr ""
-"<b>aggiungi un nodo</b>: click, <b>aggiungi un nodo ad angolo</b>: "
-"Ctrl+click\n"
-"<b>termina il tracciato</b>: click destro"
+"<b>aggiungi un nodo</b>: drag, <b>aggiungi un nodo ad angolo</b>: Ctrl+click\n"
+"<b>rimuovi il tracciato</b>: click destro"
 
 #: ../src/develop/pixelpipe_hb.c:491
 msgid "enabled as required"
@@ -11470,12 +11466,11 @@ msgid "$(OPENCL.ACTIVATED) - whether OpenCL is activated"
 msgstr "$(OPENCL.ACTIVATED) - qualora OpenCL è attivato"
 
 #: ../src/gui/gtkentry.c:243
-#, fuzzy
 #| msgid "$(CATEGORY0(category)) - subtag of level 0 in hierarchical tags"
 msgid "$(CATEGORY[n,category]) - subtag of level n in hierarchical tags"
 msgstr ""
-"$(CATEGORY0(category)) - Sotto-etichetta del livello 0 nelle etichette "
-"gerarchiche"
+"$(CATEGORY0(category)) - Sotto-etichetta del livello 0 nelle etichette"
+" gerarchiche"
 
 #: ../src/gui/gtkentry.c:244
 msgid "$(TAGS) - tags as set in metadata settings"
@@ -16686,7 +16681,6 @@ msgid "change the framing"
 msgstr "Modifica la cornice"
 
 #: ../src/iop/crop.c:1151
-#, fuzzy
 #| msgid "2:1, univisium"
 msgid "2:1, Univisium"
 msgstr "2:1, univisium"
@@ -27226,3 +27220,4 @@ msgstr "azioni mouse"
 #, c-format
 #~ msgid "%.1f mm (%.1f mm FF equiv, crop %.1f)"
 #~ msgstr "%.1f mm (%.1f mm FF equivalente, crop %.1f)"
+

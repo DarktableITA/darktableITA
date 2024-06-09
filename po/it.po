@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-02 18:53+0200\n"
-"PO-Revision-Date: 2024-06-08 00:04+0200\n"
+"PO-Revision-Date: 2024-06-09 14:34+0200\n"
 "Last-Translator: Fabio Sirna <fabio@fabiosirna.com>\n"
 "Language-Team: Italian <kde-i18n-doc@kde.org>\n"
 "Language: it\n"
@@ -1131,7 +1131,6 @@ msgid "enable disk backend for thumbnail cache"
 msgstr "Gestore disco per la cache delle anteprime"
 
 #: ../build/bin/preferences_gen.h:4783
-#, fuzzy
 #| msgid ""
 #| "if enabled, write thumbnails to disk (.cache/darktable/) when evicted "
 #| "from the memory cache.\n"
@@ -1151,15 +1150,16 @@ msgid ""
 "to generate all thumbnails of your entire collection offline, run 'darktable-"
 "generate-cache'."
 msgstr ""
-"Se abilitato, salva le miniature sul disco (.cache/darktable/) quando "
-"vengono epurate dalla cache in memoria.\n"
-"E da notare che questa attività può occupare un gran quantitativo di memoria"
-" (diversi gigabyte per "
-"20.000 immagini) e non verrà mai più eliminata alcuna miniatura in memoria.\n"
-"Se si vuole, è comunque sicuro rimuoverle manualmente. Le prestazioni del "
-"Tavolo Luminoso incrementeranno sensibilmente quando si naviga a lungo.\n"
-"Per generare offline le miniature della tua intera raccolta, esegui "
-"'darktable-generate-cache'. "
+"Se abilitato, scrivi le miniature su disco (.cache/darktable/) "
+"quando sono espulse dalla cache di memoria.\n"
+"Nota che questo può richiedere molta memoria (diversi gigabyte per 20.000"
+" immagini) "
+"e non eliminerà mai di nuovo le miniature memorizzate nella cache.\n"
+"È comunque sicuro eliminarle manualmente, se lo desideri.\n"
+"Le prestazioni della Tavolo Luminoso aumenteranno notevolmente durante la"
+" navigazione intensiva.\n"
+"Per generare tutte le miniature della tua intera collezione offline, "
+"esegui 'darktable-generate-cache'."
 
 #: ../build/bin/preferences_gen.h:4804
 msgid "enable disk backend for full preview cache"
@@ -3082,7 +3082,7 @@ msgstr "Personalizzato"
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:517
 msgid "as shot in camera"
-msgstr "come scattato dalla camera"
+msgstr "Come scattato nella fotocamera."
 
 #: ../build/lib/darktable/plugins/introspection_channelmixerrgb.c:522
 msgid "F1 (Daylight 6430 K) – medium CRI"
@@ -4409,11 +4409,11 @@ msgstr "ricostruisci"
 #: ../build/lib/darktable/plugins/introspection_highlights.c:185
 #: ../build/lib/darktable/plugins/introspection_highlights.c:272
 msgid "inpaint a flat color"
-msgstr "ricostruisci un colore piatto"
+msgstr "Ricostruisci un colore piatto"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:286
 msgid "inpaint opposed"
-msgstr "Inpaint opposto"
+msgstr "Ricostruzione opposta"
 
 #: ../build/lib/darktable/plugins/introspection_highlights.c:287
 msgid "reconstruct in LCh"
@@ -8040,7 +8040,7 @@ msgstr "Duplica immagini"
 
 #: ../src/control/jobs/control_jobs.c:1743
 msgid "flip images"
-msgstr "Rifletti immagini"
+msgstr "Capovolgi immagini"
 
 #: ../src/control/jobs/control_jobs.c:1752
 msgid "set monochrome images"
@@ -9259,7 +9259,6 @@ msgid "unsupported input"
 msgstr "Ingresso non supportato"
 
 #: ../src/develop/imageop.c:3644
-#, fuzzy
 #| msgid ""
 #| "you have placed this module at\n"
 #| "a position in the pipeline where\n"
@@ -9271,9 +9270,9 @@ msgid ""
 "the data format does not match\n"
 "it's requirements."
 msgstr ""
-"Hai messo questo modulo in una\n"
-"posizione nella coda di sviluppo dove\n"
-"il formato dei dati non corrisponde\n"
+"Hai posizionato questo modulo\n"
+"in una posizione nella coda di sviluppo\n"
+"in cui il formato dei dati non corrisponde\n"
 "ai suoi requisiti."
 
 #: ../src/develop/imageop.c:3779 ../src/develop/imageop.c:3789
@@ -10913,7 +10912,7 @@ msgstr "Sposta giù"
 
 #: ../src/gui/accelerators.c:3599
 msgid "flip top/bottom first/last"
-msgstr "Scambia alto/basso primo/ultimo"
+msgstr "Capovolgi sopra/sotto primo/ultimo"
 
 #: ../src/gui/accelerators.c:3684
 msgid "fallback to move"
@@ -11533,11 +11532,11 @@ msgstr "Guide"
 
 #: ../src/gui/guides.c:710 ../src/iop/clipping.c:2115
 msgid "flip"
-msgstr "Rifletti"
+msgstr "Capovolgi"
 
 #: ../src/gui/guides.c:710
 msgid "flip guides"
-msgstr "Rifletti le guide"
+msgstr "Capovolgi le guide"
 
 #: ../src/gui/guides.c:713
 msgid "horizontally"
@@ -15130,7 +15129,7 @@ msgstr "principale"
 
 #: ../src/iop/clipping.c:2121
 msgid "mirror image horizontally and/or vertically"
-msgstr "Rifletti l'immagine orizzontalmente e/o verticalmente"
+msgstr "Specchia l'immagine orizzontalmente e/o verticalmente"
 
 #: ../src/iop/clipping.c:2124
 msgid "angle"
@@ -17033,14 +17032,13 @@ msgid "diffuse or sharpen"
 msgstr "diffusione o nitidezza"
 
 #: ../src/iop/diffuse.c:132
-#, fuzzy
 #| msgid "diffusion|deconvolution|blur|sharpening"
 msgid ""
 "diffusion|deconvolution|blur|sharpening|bloom|clarity|dehaze|inpaint|"
 "watercolor"
 msgstr ""
-"Diffusione|deconvoluzione|sfocatura|nitidezza|luce"
-" soffusa|chiarezza|rimozione foschia|riempimento|acquerello"
+"Diffusione|deconvoluzione|sfocatura|nitidezza|luce soffusa|chiarezza| "
+"rimuovi foschia|ricostruisci|acquerello"
 
 #: ../src/iop/diffuse.c:139
 msgid ""
@@ -17051,7 +17049,8 @@ msgid ""
 msgstr ""
 "Simula la diffusione direzionale della luce in base ad un modello di "
 "trasferimento del calore per applicare una sfumatura interattiva orientata,\n"
-"ricreare aree danneggiate dell'immagine o per rimuovere le sfocature con una "
+"Ricostruzione delle aree danneggiate dell'immagine o per rimuovere le"
+" sfocature con una "
 "deconvoluzione cieca."
 
 #. deblurring presets
@@ -17111,7 +17110,7 @@ msgstr "Contrasto locale: buono"
 
 #: ../src/iop/diffuse.c:652
 msgid "inpaint highlights"
-msgstr "ricostruisci alteluci"
+msgstr "Ricostruzione alteluci"
 
 #. fast presets for slow hardware
 #: ../src/iop/diffuse.c:679
@@ -17149,7 +17148,7 @@ msgid ""
 msgstr ""
 "Più iterazioni rendono l'effetto più visibile ma il modulo rallenterà.\n"
 "questa azione è come dare più tempo alla reazione di diffusione.\n"
-"Se volete aumentare la nitidezza o ricreare aree danneggiate \n"
+"Se volete aumentare la nitidezza o ricostruire aree danneggiate \n"
 "più iterazioni rendono il lavoro più accurato."
 
 #: ../src/iop/diffuse.c:1794
@@ -17367,7 +17366,7 @@ msgstr ""
 "0. Disabilita il mascheramento con luminanza ed applica il modulo all'intera "
 "imagine.\n"
 "Ogni valore più alto esclude i pixel con luminanza più bassa della soglia.\n"
-"Può essere usato per rimuovere alteluci."
+"Può essere usato per la ricostruzione delle alteluci."
 
 #: ../src/iop/dither.c:107
 msgid "dither or posterize"
@@ -17456,10 +17455,9 @@ msgstr ""
 "originale"
 
 #: ../src/iop/enlargecanvas.c:449
-#, fuzzy
 #| msgid "select color of the checkerboard from a swatch"
 msgid "select the color of the enlarged canvas"
-msgstr "Seleziona il colore della scheda di controllo colore da un campione"
+msgstr "Seleziona il colore dell'ingrandimento dell'area"
 
 #: ../src/iop/equalizer.c:89
 msgid "legacy equalizer"
@@ -18080,12 +18078,12 @@ msgid ""
 "increase if at least one RGB channel is not clipped.\n"
 "decrease if all RGB channels are clipped over large areas."
 msgstr ""
-"Decidere la strategia di ricostruzione da favorire,\n"
-"ricostruire una gradazione di colore morbida\n"
-"oppure cercare di recuperare i dettagli della trama.\n"
-"0% è un pari ad un mix di entrambi.\n"
-"Incrementare se almeno un canale RGB non è tagliato.\n"
-"Decrementare se tutti i canali RGB sono tagliati in aree ampie."
+"Decidi quale strategia di ricostruzione favorire,\n"
+"ricostruzione con un gradiente di colore uniforme\n"
+"o tentare di recuperare i dettagli della trama.\n"
+"Il 0% è un mix equo di entrambi.\n"
+"Aumenta se almeno un canale RGB non è saturato.\n"
+"Diminuisci se tutti i canali RGB sono saturati in vaste aree."
 
 #: ../src/iop/filmicrgb.c:4495
 #, no-c-format
@@ -18295,10 +18293,9 @@ msgid "scale into final size"
 msgstr "Scala nella dimensione finale"
 
 #: ../src/iop/flip.c:80
-#, fuzzy
 #| msgid "rotation|flip"
 msgid "rotation|flip|mirror"
-msgstr "Rotazione|Capovolgimento"
+msgstr "ruota|capovolgi|specchia"
 
 #: ../src/iop/flip.c:110
 msgid "flip or rotate image by step of 90 degrees"
@@ -18310,11 +18307,11 @@ msgstr "Nessuna rotazione"
 
 #: ../src/iop/flip.c:468 ../src/iop/flip.c:611
 msgid "flip horizontally"
-msgstr "Rifletti orizzontalmente"
+msgstr "Capovolgi orizzontalmente"
 
 #: ../src/iop/flip.c:472 ../src/iop/flip.c:615
 msgid "flip vertically"
-msgstr "Rifletti verticalmente"
+msgstr "Capovolgi verticalmente"
 
 #: ../src/iop/flip.c:476
 msgid "rotate by -90 degrees"
@@ -18545,8 +18542,8 @@ msgid ""
 "highlights: mode not available for this type of image. falling back to "
 "inpaint opposed."
 msgstr ""
-"alteluci: modalità non disponibile per questo tipo di immagine. Si ricade su "
-"impaint opposto."
+"Alteluci: modalità non disponibile per questo tipo di immagine. "
+"Si ricorre alla ricostruzione opposta."
 
 #: ../src/iop/highlights.c:1156
 msgid "highlight reconstruction method"
@@ -19860,10 +19857,9 @@ msgstr ""
 " filigrana"
 
 #: ../src/iop/overlay.c:1093
-#, fuzzy
 #| msgid "watermark dimension to scale"
 msgid "overlay dimension to scale"
-msgstr "Dimensiona la filigrana alla scala"
+msgstr "Dimensione dell'elemento sovrapposto da ridimensionare"
 
 #: ../src/iop/overlay.c:1097 ../src/iop/watermark.c:1392
 #: ../src/libs/print_settings.c:2692
@@ -19872,22 +19868,19 @@ msgstr "Allineamento"
 
 #. Let's add some tooltips and hook up some signals...
 #: ../src/iop/overlay.c:1121
-#, fuzzy
 #| msgid "the opacity of the watermark"
 msgid "the opacity of the overlay"
-msgstr "Opacità della filigrana"
+msgstr "Opacità dell'elemento sovrapposto"
 
 #: ../src/iop/overlay.c:1122
-#, fuzzy
 #| msgid "the scale of the watermark"
 msgid "the scale of the overlay"
-msgstr "proporzioni della filigrana"
+msgstr "La scala dell'elemento sovrapposto"
 
 #: ../src/iop/overlay.c:1123
-#, fuzzy
 #| msgid "the rotation of the watermark"
 msgid "the rotation of the overlay"
-msgstr "Rotazione della filigrana"
+msgstr "La rotazione dell'elemento sovrapposto"
 
 #: ../src/iop/primaries.c:74
 msgid "rgb primaries"
@@ -19928,7 +19921,7 @@ msgstr "correzione profilo di ingresso"
 #: ../src/iop/profile_gamma.c:101
 msgid "correct input color profiles meant to be applied on non-linear RGB"
 msgstr ""
-"Corregge i profili colore di input da applicare in modo RGB non-lineare"
+"Corregge il profilo colore di ingresso da applicare in modo RGB non-lineare"
 
 #: ../src/iop/profile_gamma.c:138
 msgid "16 EV dynamic range (generic)"
@@ -20144,10 +20137,11 @@ msgid "retouch"
 msgstr "ritocco"
 
 #: ../src/iop/retouch.c:202
-#, fuzzy
 #| msgid "split-frequency|healing|cloning|stamp"
 msgid "split-frequency|healing|cloning|stamp|blur|fill|wavelets|spot removal"
-msgstr "Divisione frequenze | cerotto | clona | timbro"
+msgstr ""
+"divisione delle frequenze|cerotto|clona|timbro|sfocatura|riempimento|wavelets|"
+"rimozione macchie"
 
 #: ../src/iop/retouch.c:208
 msgid "remove and clone spots, perform split-frequency skin editing"
@@ -20504,10 +20498,9 @@ msgstr ""
 "utile per alcuni tipi di sensore e per il desqueeze anamorfico"
 
 #: ../src/iop/scalepixels.c:261
-#, fuzzy
 #| msgid "aspect ratio"
 msgid "adjust pixel aspect ratio"
-msgstr "proporzioni"
+msgstr "Regola il rapporto d'aspetto dei pixel"
 
 #: ../src/iop/shadhi.c:120
 msgid "shadows and highlights"
@@ -20662,12 +20655,14 @@ msgid "set custom primaries"
 msgstr "Imposta primarie personalizzate"
 
 #: ../src/iop/sigmoid.c:939
-#, fuzzy
 #| msgid "primaries to use as the base for below adjustments"
 msgid ""
 "primaries to use as the base for below adjustments\n"
 "'working profile' uses the profile set in 'input color profile'"
-msgstr "primarie da utilizzare come base per le regolazioni di seguito"
+msgstr ""
+"Primarie da utilizzare come base per le regolazioni seguenti\n"
+"Il \"profilo di lavoro\" utilizza il profilo impostato nel \"profilo colore"
+" di ingresso\""
 
 #: ../src/iop/sigmoid.c:959
 msgid "attenuate the purity of the red primary"
@@ -20682,7 +20677,6 @@ msgid "attenuate the purity of the green primary"
 msgstr "Attenua la purezza del verde primario"
 
 #: ../src/iop/sigmoid.c:962
-#, fuzzy
 msgid "rotate the green primary"
 msgstr "Ruota il verde primario"
 
@@ -20896,11 +20890,10 @@ msgid "camera reference"
 msgstr "Riferimento fotocamera"
 
 #: ../src/iop/temperature.c:1687
-#, fuzzy
 #| msgid "show global preferences"
 msgctxt "white balance"
 msgid "as shot to reference"
-msgstr "Mostra preferenze globali"
+msgstr "Riferimento a \"come scattato\" nella fotocamera"
 
 #: ../src/iop/temperature.c:1991 ../src/iop/temperature.c:2009
 msgid "green channel coefficient"
@@ -20975,13 +20968,11 @@ msgstr ""
 "Nella maggior parte dei casi dovrebbe essere D65"
 
 #: ../src/iop/temperature.c:2126
-#, fuzzy
 #| msgid "show global preferences"
 msgid "as shot to reference"
-msgstr "Mostra preferenze globali"
+msgstr "Riferimento a \"come scattato\" nella fotocamera"
 
 #: ../src/iop/temperature.c:2131
-#, fuzzy
 #| msgid ""
 #| "set white balance to camera reference point\n"
 #| "in most cases it should be D65"
@@ -20989,8 +20980,9 @@ msgid ""
 "set white balance to as shot and later correct to camera reference point,\n"
 "in most cases it should be D65"
 msgstr ""
-"Imposta il bilanciamento del bianco come la fotocamera.\n"
-"Nella maggior parte dei casi dovrebbe essere D65"
+"Imposta il bilanciamento del bianco su \"come scattato\" e successivamente"
+" correggilo al punto di riferimento della fotocamera, "
+"nella maggior parte dei casi dovrebbe essere D65"
 
 #: ../src/iop/temperature.c:2147
 msgid "choose white balance setting"
@@ -23193,7 +23185,6 @@ msgid "scopes"
 msgstr "Ambiti"
 
 #: ../src/libs/histogram.c:1014
-#, fuzzy
 #| msgid ""
 #| "unsupported vectorscope profile selected, it will be replaced with linear "
 #| "Rec2020"
@@ -23201,8 +23192,9 @@ msgid ""
 "unsupported profile selected for histogram, it will be replaced with linear "
 "Rec2020"
 msgstr ""
-"E' stato selezionato un profilo Vettorscopio non supportato, verrà "
-"sostituito dal Rec2020 lineare"
+"Profilo non supportato selezionato per l'istogramma, verrà sostituito con"
+" lineare "
+"Rec2020"
 
 #: ../src/libs/histogram.c:1693
 msgid "scroll to coarse-rotate"
@@ -23801,7 +23793,7 @@ msgstr "Ingrandisci visione reale"
 
 #: ../src/libs/live_view.c:295
 msgid "flip live view horizontally"
-msgstr "Rifletti la visione reale orizzontalmente"
+msgstr "Capovolgi la visualizzazione live orizzontalmente"
 
 #: ../src/libs/live_view.c:301
 msgid "move focus point in (big steps)"
@@ -25262,10 +25254,9 @@ msgid "detach tag"
 msgstr "Rimuovi etichetta"
 
 #: ../src/libs/tagging.c:1285
-#, fuzzy
 #| msgid "redefined tag"
 msgid "find tag"
-msgstr "Etichette ridefinite"
+msgstr "trova etichetta"
 
 #: ../src/libs/tagging.c:1505
 msgid "delete tag?"
@@ -25619,17 +25610,15 @@ msgid "toggle color label of selected images"
 msgstr "attiva etichetta colore alle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:134
-#, fuzzy
 #| msgid "toggle color label of selected images"
 msgid "clear color labels of selected images"
-msgstr "attiva etichetta colore alle immagini selezionate"
+msgstr "Rimuovi le etichette colore dalle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:245
-#, fuzzy
 #| msgid ""
 #| "enter a description for the new style, this description is searchable"
 msgid "enter a description of how you use this color label"
-msgstr "Inserisci la descrizione del nuovo stile, la descrizione è ricercabile"
+msgstr "Inserisci una descrizione per questa etichetta colore"
 
 #: ../src/libs/tools/filmstrip.c:45
 msgid "filmstrip"
@@ -25958,10 +25947,9 @@ msgid "click to enter culling layout in dynamic mode."
 msgstr "Clicca per entrare nel layout selezione in modalità dinamica."
 
 #: ../src/libs/tools/lighttable.c:326
-#, fuzzy
 #| msgid "selection"
 msgid "focus detection"
-msgstr "Selezione"
+msgstr "rilevamento del focus"
 
 #: ../src/libs/tools/lighttable.c:365
 msgid "toggle filemanager layout"
@@ -26155,10 +26143,9 @@ msgid "toggle ISO 12646 color assessment conditions"
 msgstr "Nascondi le condizioni di valutazione colore ISO 12646"
 
 #: ../src/views/darkroom.c:2264
-#, fuzzy
 #| msgid "high quality resampling"
 msgid "high quality processing"
-msgstr "ricampionamento in alta qualità"
+msgstr "elaborazione ad alta qualità"
 
 #: ../src/views/darkroom.c:2268
 msgid ""
@@ -26199,8 +26186,8 @@ msgstr "colore falso"
 msgid "color scheme"
 msgstr "combinazione colori"
 
+# da verficare se è mode è stato tradotto con modo o modalità o altro - Fabio
 #: ../src/views/darkroom.c:2306
-#, fuzzy
 #| msgid ""
 #| "select the solid color to indicate over exposure.\n"
 #| "will only be used if mode = mark with solid color"
@@ -26209,7 +26196,7 @@ msgid ""
 "will only be used if mode = mark with solid color"
 msgstr ""
 "Seleziona il colore a tinta unita per indicare la sovra esposizione.\n"
-"Verrà utilizzato solamente se il modo = \"marca con tinta unita\""
+"Verrà utilizzato solamente se modo = \"marca con tinta unita\" "
 
 #: ../src/views/darkroom.c:2309
 msgctxt "solidcolor"
@@ -26659,46 +26646,39 @@ msgid "zoom min"
 msgstr "Ingrandimento minimo"
 
 #: ../src/views/map.c:2453
-#, fuzzy
 #| msgid "crop right"
 msgid "scroll right"
-msgstr "Taglia a destra"
+msgstr "scorri verso destra"
 
 #: ../src/views/map.c:2455
-#, fuzzy
 #| msgid "crop right border"
 msgid "scroll right wide"
-msgstr "ritaglio margine destro"
+msgstr "scorri ampiamente verso destro"
 
 #: ../src/views/map.c:2457
-#, fuzzy
 #| msgid "crop left"
 msgid "scroll left"
-msgstr "Taglia a sinistra"
+msgstr "scorri verso sinistra"
 
 #: ../src/views/map.c:2459
-#, fuzzy
 #| msgid "crop left border"
 msgid "scroll left wide"
-msgstr "ritaglio margine sinistro"
+msgstr "scorri ampiamente verso sinistra"
 
 #: ../src/views/map.c:2461
-#, fuzzy
 #| msgid "scroll"
 msgid "scroll up"
-msgstr "Scorri"
+msgstr "scorri verso l'alto"
 
 #: ../src/views/map.c:2463
-#, fuzzy
 #| msgid "scroll"
 msgid "scroll up wide"
-msgstr "Scorri"
+msgstr "scorri ampiamente verso l'alto"
 
 #: ../src/views/map.c:2465
-#, fuzzy
 #| msgid "scroll"
 msgid "scroll down"
-msgstr "Scorri"
+msgstr "scorri verso il basso"
 
 #: ../src/views/map.c:2467
 msgid "scroll down wide"
@@ -27167,4 +27147,5 @@ msgstr "azioni mouse"
 #, c-format
 #~ msgid "%.1f mm (%.1f mm FF equiv, crop %.1f)"
 #~ msgstr "%.1f mm (%.1f mm FF equivalente, crop %.1f)"
+
 
